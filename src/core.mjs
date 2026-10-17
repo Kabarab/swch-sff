@@ -62,10 +62,13 @@ export class Network {
   async download(url, dest, {signal,hash,progress,resume=true,headers={},timeout=600000}={}) {
     await noLinks(dest);await fs.mkdir(path.dirname(dest),{recursive:true});const partial=dest+'.partial';
     let offset=resume?(await fs.stat(partial).catch(()=>({size:0}))).size:0;
-    const r=await this.request(url,{signal,timeout,headers:{...headers,...(offset?{Range:'bytes='+offset+'-'}:{})}});
+    const r=await this.request(url,{signal,timeout,headers:{...headers,'Accept-Encoding':'identity',...(offset?{Range:'bytes='+offset+'-'}:{})}});
     if(offset&&r.status!==206)offset=0;
+    // Fetch decodes HTTP content encodings, but leaves the compressed wire length in headers.
+    const encoded=(r.headers.get('content-encoding')||'identity').toLowerCase()!=='identity';
+    if(encoded&&offset){await r.body?.cancel();await fs.rm(partial,{force:true});return this.download(url,dest,{signal,hash,progress,resume:false,headers,timeout});}
     if(offset&&!(r.headers.get('content-range')||'').startsWith('bytes '+offset+'-'))throw new Error('Invalid download resume response');
-    const total=Number(r.headers.get('content-length')||0)+offset;let done=offset,last=0;
+    const total=encoded?0:Number(r.headers.get('content-length')||0)+offset;let done=offset,last=0;
     const meter=new Transform({transform(chunk,encoding,callback){done+=chunk.length;if(Date.now()-last>500){last=Date.now();Promise.resolve(progress?.({done,total})).catch(()=>{});}callback(null,chunk);}});
     await pipeline(Readable.fromWeb(r.body),meter,createWriteStream(partial,{flags:offset?'a':'w'}),{signal});
     if(total&&done!==total)throw new Error('Incomplete download');
