@@ -1,0 +1,3354 @@
+[
+  {
+    "id": "ddmod",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64",
+      "macos-arm64"
+    ],
+    "license": "GPL-2.0",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/",
+    "files": [
+      {
+        "path": "DepotDownloaderMod.deps.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/DepotDownloaderMod.deps.json",
+        "size": 7815,
+        "executable": false,
+        "sha256": "0a86ce7ef2c19a4395d6ca6fb9e934380f70f5514990667049dc8c8b3bc707b9"
+      },
+      {
+        "path": "DepotDownloaderMod.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/DepotDownloaderMod.dll",
+        "size": 176640,
+        "executable": false,
+        "sha256": "f6200eadeb9e36f6e1529a9592302bd04c17c2be3416bd43641a66262c777e99"
+      },
+      {
+        "path": "DepotDownloaderMod.runtimeconfig.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/DepotDownloaderMod.runtimeconfig.json",
+        "size": 467,
+        "executable": false,
+        "sha256": "e03ec024de56b094f6e2d5db581370cbb8c88b8470f4475ac38ceff6033e3df0"
+      },
+      {
+        "path": "QRCoder.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/QRCoder.dll",
+        "size": 144384,
+        "executable": false,
+        "sha256": "3c5674f67a97fd9ed38dd537d892ee9efd328afad4d6c1d67f99fde2c108dd57"
+      },
+      {
+        "path": "SteamKit2.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/SteamKit2.dll",
+        "size": 6462464,
+        "executable": false,
+        "sha256": "2931f875143f17e104bd4de59cb839c84211b11c3b2aaa0bdd5257fe0b3ceed6"
+      },
+      {
+        "path": "System.IO.Hashing.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/System.IO.Hashing.dll",
+        "size": 56072,
+        "executable": false,
+        "sha256": "a1ca98abdf21ef16e4a8a1c2b9f8b3819957bde39495bc6d4eddaf0453407853"
+      },
+      {
+        "path": "ZstdSharp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/ZstdSharp.dll",
+        "size": 395776,
+        "executable": false,
+        "sha256": "f0149a8f123c9ab8baf67df78096ba5b4d983c1030ad52ac1099a3f713eb60c0"
+      },
+      {
+        "path": "protobuf-net.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/protobuf-net.Core.dll",
+        "size": 299520,
+        "executable": false,
+        "sha256": "d8b333ec409d0cc23954a1da07028e54cdaca7d1061a52e4ae265baef63d8bd1"
+      },
+      {
+        "path": "protobuf-net.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/DDMod/protobuf-net.dll",
+        "size": 284672,
+        "executable": false,
+        "sha256": "c482090bf4002b2b65a576a0e44ffa860b63086ff8c3db122f7ea480aeb6f2d7"
+      }
+    ]
+  },
+  {
+    "id": "goldberg",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "LGPL-3.0",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/",
+    "files": [
+      {
+        "path": "GameOverlayRenderer.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/GameOverlayRenderer.dll",
+        "size": 1926568,
+        "executable": false,
+        "sha256": "fb2c33b07745b48ec8ec3ca84f8bf78956c4fc6c8f6643007cefee0984b1b764"
+      },
+      {
+        "path": "GameOverlayRenderer64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/GameOverlayRenderer64.dll",
+        "size": 1943976,
+        "executable": false,
+        "sha256": "0d030d1de7646276e2690311080e93dc3552c4871b7779a70e33fc0dfaa218b2"
+      },
+      {
+        "path": "Steam.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/Steam.dll",
+        "size": 164776,
+        "executable": false,
+        "sha256": "c8d600c9df0d4211964a64a7b5515b122e1f078092f74b11c67662ada4e42d47"
+      },
+      {
+        "path": "generate_interfaces_x64.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/generate_interfaces_x64.exe",
+        "size": 301480,
+        "executable": false,
+        "sha256": "67d1667203c83685846bbdc9c063479421a66b7f7adb8a7604238175e3a17a29"
+      },
+      {
+        "path": "generate_interfaces_x86.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/generate_interfaces_x86.exe",
+        "size": 250792,
+        "executable": false,
+        "sha256": "8343b4dd138613f5e840e1e6978a3db9d68e1dc600bb2be88f925ad2fe1ae835"
+      },
+      {
+        "path": "steam_api.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_api.dll",
+        "size": 9189288,
+        "executable": false,
+        "sha256": "8e804d38cde295b1f08a6c41ecc8978fde69e53e2a6e22652017371a49cba1be"
+      },
+      {
+        "path": "steam_api64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_api64.dll",
+        "size": 11429288,
+        "executable": false,
+        "sha256": "8b1bd0bea955aaeccd6de92d2a8c6208757dde038fd3c074113f0c2609e04de1"
+      },
+      {
+        "path": "steam_settings/account_avatar.EXAMPLE.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/account_avatar.EXAMPLE.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/account_avatar.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/account_avatar.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/account_avatar_default.EXAMPLE.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/account_avatar_default.EXAMPLE.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/account_avatar_default.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/account_avatar_default.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/achievements.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/achievements.json",
+        "size": 67275,
+        "executable": false,
+        "sha256": "c90b571bd159618a8837f6e5f77ae254985d90df3634acda7f79f0d382bc75c8"
+      },
+      {
+        "path": "steam_settings/achievements_EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/achievements_EXAMPLE.json",
+        "size": 67275,
+        "executable": false,
+        "sha256": "c90b571bd159618a8837f6e5f77ae254985d90df3634acda7f79f0d382bc75c8"
+      },
+      {
+        "path": "steam_settings/auto_accept_invite.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/auto_accept_invite.EXAMPLE.txt",
+        "size": 54,
+        "executable": false,
+        "sha256": "ca8428b326b45e8137fa135a94ba95f721e4b01afcb086a18de3bf2ef345ffdc"
+      },
+      {
+        "path": "steam_settings/auto_accept_invite.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/auto_accept_invite.txt",
+        "size": 54,
+        "executable": false,
+        "sha256": "ca8428b326b45e8137fa135a94ba95f721e4b01afcb086a18de3bf2ef345ffdc"
+      },
+      {
+        "path": "steam_settings/branches.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/branches.EXAMPLE.json",
+        "size": 709,
+        "executable": false,
+        "sha256": "09c56dabdb5d4d8e65f5e7810bcd3779929417d6b3d46a85dc88d5c4b0c4a473"
+      },
+      {
+        "path": "steam_settings/branches.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/branches.json",
+        "size": 709,
+        "executable": false,
+        "sha256": "09c56dabdb5d4d8e65f5e7810bcd3779929417d6b3d46a85dc88d5c4b0c4a473"
+      },
+      {
+        "path": "steam_settings/configs.app.EXAMPLE.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.app.EXAMPLE.ini",
+        "size": 4173,
+        "executable": false,
+        "sha256": "15d215336dac68eed66b51f81cb9779f796a169c3287140370b66613d14dcb65"
+      },
+      {
+        "path": "steam_settings/configs.app.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.app.ini",
+        "size": 4173,
+        "executable": false,
+        "sha256": "15d215336dac68eed66b51f81cb9779f796a169c3287140370b66613d14dcb65"
+      },
+      {
+        "path": "steam_settings/configs.main.EXAMPLE.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.main.EXAMPLE.ini",
+        "size": 8449,
+        "executable": false,
+        "sha256": "fd60402955312bf4764927ebb6151cf955e01320691b1eed7686bc1175fbeb53"
+      },
+      {
+        "path": "steam_settings/configs.main.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.main.ini",
+        "size": 8201,
+        "executable": false,
+        "sha256": "90ec81842c8d5497c0a7f1e1f60137600e7443fcd973e1b936c1265938af6ce6"
+      },
+      {
+        "path": "steam_settings/configs.overlay.EXAMPLE.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.overlay.EXAMPLE.ini",
+        "size": 7358,
+        "executable": false,
+        "sha256": "6d2830b257c3570cc77034a88e513f363e4b8859a7e064ff7680c71de77ffd65"
+      },
+      {
+        "path": "steam_settings/configs.overlay.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.overlay.ini",
+        "size": 5395,
+        "executable": false,
+        "sha256": "ab61659df519c63eb627abe742bafdd9b407795f918b8e46513dfa7a0602c9cb"
+      },
+      {
+        "path": "steam_settings/configs.user.EXAMPLE.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.user.EXAMPLE.ini",
+        "size": 1897,
+        "executable": false,
+        "sha256": "0b9f9b54858c82d2b17c80d1541264df70d88ce5d67d3cc5c639eab01bf79af0"
+      },
+      {
+        "path": "steam_settings/configs.user.ini",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/configs.user.ini",
+        "size": 1897,
+        "executable": false,
+        "sha256": "0b9f9b54858c82d2b17c80d1541264df70d88ce5d67d3cc5c639eab01bf79af0"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/InGameControls.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/InGameControls.txt",
+        "size": 339,
+        "executable": false,
+        "sha256": "ca5a23baedd6052c43a7cab37b203e808a2606f15b7006f7675d111a28e1fcce"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/MenuControls.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/MenuControls.txt",
+        "size": 291,
+        "executable": false,
+        "sha256": "93bcc5f7196c64b113ed6866f66d12e27722f0cb5a23549f56b05cfc8f810bc2"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/button_a.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/button_a.png",
+        "size": 9456,
+        "executable": false,
+        "sha256": "aad85589c65f4624c283f3c0cc86b31bb230bc26a9fed29412191c8fb53d339c"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/button_b.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/button_b.png",
+        "size": 8556,
+        "executable": false,
+        "sha256": "40193d449c6992c00454cd6844986007cd361e46c12a5e175cdd9fc1d61b3df7"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/button_x.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/button_x.png",
+        "size": 10713,
+        "executable": false,
+        "sha256": "d48cfbe44767c432b70a25771a8be0162e5644270047497b423cf8078a03378f"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/button_y.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/button_y.png",
+        "size": 9184,
+        "executable": false,
+        "sha256": "7710d3113955f6e1933c07e1495c412a4e1ab2deeba30b9ec8ed7a19e20a891f"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/shoulder_l.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/shoulder_l.png",
+        "size": 2711,
+        "executable": false,
+        "sha256": "06f4007ee74ed82e1327cb1b03cb740b0f4d23fd1de4c242e47b10493396f286"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/shoulder_r.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/shoulder_r.png",
+        "size": 3119,
+        "executable": false,
+        "sha256": "d00995974d66bb5e2bd83cd3a4990dff3ec108b9eb86dc4fd4f31a2fb33b40f9"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_dpad_e.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_dpad_e.png",
+        "size": 5994,
+        "executable": false,
+        "sha256": "63da80cff089402decbaf2afbfbee4841830cfd0d117751f68336ef542dcbf42"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_dpad_n.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_dpad_n.png",
+        "size": 6034,
+        "executable": false,
+        "sha256": "4d284e811156f0376e1b39b9ffd86ae15f0639c1da67719fd56b96ce1eb93790"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_dpad_s.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_dpad_s.png",
+        "size": 5985,
+        "executable": false,
+        "sha256": "57c1b3ff038f50b3e4eea9f6db752058891ce4c0e7551ae5fbf7bcc2658cd6e0"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_dpad_w.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_dpad_w.png",
+        "size": 6001,
+        "executable": false,
+        "sha256": "cd7042919525b3d720a76d85679547e837ada74a89d59f8d05b266c2f349d50e"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_l_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_l_click.png",
+        "size": 6381,
+        "executable": false,
+        "sha256": "5d69ea410b79b27c73572954057e706c4bc2959bb1da385fa453fff023a94d5b"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_l_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_l_move.png",
+        "size": 5147,
+        "executable": false,
+        "sha256": "11c1aceb28739081290a0c86494d7df43ad975dc8ff942147b894bf558de5a12"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_r_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_r_click.png",
+        "size": 7036,
+        "executable": false,
+        "sha256": "44db68034534cc61e818302747b8c98d8fe65c52b1159f76ed24896695e35f73"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/stick_r_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/stick_r_move.png",
+        "size": 5798,
+        "executable": false,
+        "sha256": "00fae2212e2a54896b0fc18ab7d267e39ad6cdacd62b055da3063f081f1a518c"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/trigger_l_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/trigger_l_click.png",
+        "size": 1802,
+        "executable": false,
+        "sha256": "f6f9b7869c0835ad1de706e51d1f4da474eb1d646301f6e920d3bcdc3284252a"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/trigger_l_pull.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/trigger_l_pull.png",
+        "size": 1802,
+        "executable": false,
+        "sha256": "f6f9b7869c0835ad1de706e51d1f4da474eb1d646301f6e920d3bcdc3284252a"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/trigger_r_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/trigger_r_click.png",
+        "size": 2396,
+        "executable": false,
+        "sha256": "66184fa95f5a564410e943011ae913d5f169e511dadec02b6a1e35583702fa82"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/trigger_r_pull.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/trigger_r_pull.png",
+        "size": 2396,
+        "executable": false,
+        "sha256": "66184fa95f5a564410e943011ae913d5f169e511dadec02b6a1e35583702fa82"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_e.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_e.png",
+        "size": 5994,
+        "executable": false,
+        "sha256": "723b52602aeb0dc3b7a403245d867b86bac4cb1906c4c59d1d029ea5af2d05d6"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_move.png",
+        "size": 5013,
+        "executable": false,
+        "sha256": "ca1f4678c542cbe15de5c2276e69617ca7d41b886a2aba68f7972d0e26051f00"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_n.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_n.png",
+        "size": 5881,
+        "executable": false,
+        "sha256": "99526d88d69e47ff9d15b9c669001db3f85046d0e0adb6aeb71a3a5d3a0a4ceb"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_s.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_s.png",
+        "size": 5915,
+        "executable": false,
+        "sha256": "edef3da4507d5840e5fe18860407678b464fbf78ba3256df86022ba13e246756"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_w.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_dpad_w.png",
+        "size": 5966,
+        "executable": false,
+        "sha256": "5ae6a9a01369833ead651f12a571e3a8e998c83d8a27e2b115ea293586d8be7c"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_select.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_select.png",
+        "size": 3871,
+        "executable": false,
+        "sha256": "702b06e046779234c8ecb2ba6db1c4d533c89cf4bdbc92a00660c11e976af573"
+      },
+      {
+        "path": "steam_settings/controller.EXAMPLE/glyphs/xbox_button_start.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller.EXAMPLE/glyphs/xbox_button_start.png",
+        "size": 3927,
+        "executable": false,
+        "sha256": "199923784d9b2838d96b3aba842f685973881a29c7ad6140d14c34691a41dba2"
+      },
+      {
+        "path": "steam_settings/controller/InGameControls.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/InGameControls.txt",
+        "size": 339,
+        "executable": false,
+        "sha256": "ca5a23baedd6052c43a7cab37b203e808a2606f15b7006f7675d111a28e1fcce"
+      },
+      {
+        "path": "steam_settings/controller/MenuControls.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/MenuControls.txt",
+        "size": 291,
+        "executable": false,
+        "sha256": "93bcc5f7196c64b113ed6866f66d12e27722f0cb5a23549f56b05cfc8f810bc2"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/button_a.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/button_a.png",
+        "size": 9456,
+        "executable": false,
+        "sha256": "aad85589c65f4624c283f3c0cc86b31bb230bc26a9fed29412191c8fb53d339c"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/button_b.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/button_b.png",
+        "size": 8556,
+        "executable": false,
+        "sha256": "40193d449c6992c00454cd6844986007cd361e46c12a5e175cdd9fc1d61b3df7"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/button_x.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/button_x.png",
+        "size": 10713,
+        "executable": false,
+        "sha256": "d48cfbe44767c432b70a25771a8be0162e5644270047497b423cf8078a03378f"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/button_y.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/button_y.png",
+        "size": 9184,
+        "executable": false,
+        "sha256": "7710d3113955f6e1933c07e1495c412a4e1ab2deeba30b9ec8ed7a19e20a891f"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/shoulder_l.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/shoulder_l.png",
+        "size": 2711,
+        "executable": false,
+        "sha256": "06f4007ee74ed82e1327cb1b03cb740b0f4d23fd1de4c242e47b10493396f286"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/shoulder_r.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/shoulder_r.png",
+        "size": 3119,
+        "executable": false,
+        "sha256": "d00995974d66bb5e2bd83cd3a4990dff3ec108b9eb86dc4fd4f31a2fb33b40f9"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_dpad_e.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_dpad_e.png",
+        "size": 5994,
+        "executable": false,
+        "sha256": "63da80cff089402decbaf2afbfbee4841830cfd0d117751f68336ef542dcbf42"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_dpad_n.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_dpad_n.png",
+        "size": 6034,
+        "executable": false,
+        "sha256": "4d284e811156f0376e1b39b9ffd86ae15f0639c1da67719fd56b96ce1eb93790"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_dpad_s.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_dpad_s.png",
+        "size": 5985,
+        "executable": false,
+        "sha256": "57c1b3ff038f50b3e4eea9f6db752058891ce4c0e7551ae5fbf7bcc2658cd6e0"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_dpad_w.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_dpad_w.png",
+        "size": 6001,
+        "executable": false,
+        "sha256": "cd7042919525b3d720a76d85679547e837ada74a89d59f8d05b266c2f349d50e"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_l_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_l_click.png",
+        "size": 6381,
+        "executable": false,
+        "sha256": "5d69ea410b79b27c73572954057e706c4bc2959bb1da385fa453fff023a94d5b"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_l_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_l_move.png",
+        "size": 5147,
+        "executable": false,
+        "sha256": "11c1aceb28739081290a0c86494d7df43ad975dc8ff942147b894bf558de5a12"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_r_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_r_click.png",
+        "size": 7036,
+        "executable": false,
+        "sha256": "44db68034534cc61e818302747b8c98d8fe65c52b1159f76ed24896695e35f73"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/stick_r_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/stick_r_move.png",
+        "size": 5798,
+        "executable": false,
+        "sha256": "00fae2212e2a54896b0fc18ab7d267e39ad6cdacd62b055da3063f081f1a518c"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/trigger_l_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/trigger_l_click.png",
+        "size": 1802,
+        "executable": false,
+        "sha256": "f6f9b7869c0835ad1de706e51d1f4da474eb1d646301f6e920d3bcdc3284252a"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/trigger_l_pull.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/trigger_l_pull.png",
+        "size": 1802,
+        "executable": false,
+        "sha256": "f6f9b7869c0835ad1de706e51d1f4da474eb1d646301f6e920d3bcdc3284252a"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/trigger_r_click.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/trigger_r_click.png",
+        "size": 2396,
+        "executable": false,
+        "sha256": "66184fa95f5a564410e943011ae913d5f169e511dadec02b6a1e35583702fa82"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/trigger_r_pull.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/trigger_r_pull.png",
+        "size": 2396,
+        "executable": false,
+        "sha256": "66184fa95f5a564410e943011ae913d5f169e511dadec02b6a1e35583702fa82"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_dpad_e.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_dpad_e.png",
+        "size": 5994,
+        "executable": false,
+        "sha256": "723b52602aeb0dc3b7a403245d867b86bac4cb1906c4c59d1d029ea5af2d05d6"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_dpad_move.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_dpad_move.png",
+        "size": 5013,
+        "executable": false,
+        "sha256": "ca1f4678c542cbe15de5c2276e69617ca7d41b886a2aba68f7972d0e26051f00"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_dpad_n.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_dpad_n.png",
+        "size": 5881,
+        "executable": false,
+        "sha256": "99526d88d69e47ff9d15b9c669001db3f85046d0e0adb6aeb71a3a5d3a0a4ceb"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_dpad_s.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_dpad_s.png",
+        "size": 5915,
+        "executable": false,
+        "sha256": "edef3da4507d5840e5fe18860407678b464fbf78ba3256df86022ba13e246756"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_dpad_w.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_dpad_w.png",
+        "size": 5966,
+        "executable": false,
+        "sha256": "5ae6a9a01369833ead651f12a571e3a8e998c83d8a27e2b115ea293586d8be7c"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_select.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_select.png",
+        "size": 3871,
+        "executable": false,
+        "sha256": "702b06e046779234c8ecb2ba6db1c4d533c89cf4bdbc92a00660c11e976af573"
+      },
+      {
+        "path": "steam_settings/controller/glyphs/xbox_button_start.png",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/controller/glyphs/xbox_button_start.png",
+        "size": 3927,
+        "executable": false,
+        "sha256": "199923784d9b2838d96b3aba842f685973881a29c7ad6140d14c34691a41dba2"
+      },
+      {
+        "path": "steam_settings/custom_broadcasts.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/custom_broadcasts.EXAMPLE.txt",
+        "size": 79,
+        "executable": false,
+        "sha256": "14eb092ed54144afbde5ed76fc5d5011be891b14e4b3448333e82c2b6978099e"
+      },
+      {
+        "path": "steam_settings/custom_broadcasts.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/custom_broadcasts.txt",
+        "size": 79,
+        "executable": false,
+        "sha256": "14eb092ed54144afbde5ed76fc5d5011be891b14e4b3448333e82c2b6978099e"
+      },
+      {
+        "path": "steam_settings/default_items.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/default_items.EXAMPLE.json",
+        "size": 114,
+        "executable": false,
+        "sha256": "c523f5215ad9b44b0a8cb7945b4d011388e6ceeb19a2b1bb2fbdd67166c2946c"
+      },
+      {
+        "path": "steam_settings/default_items.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/default_items.json",
+        "size": 114,
+        "executable": false,
+        "sha256": "c523f5215ad9b44b0a8cb7945b4d011388e6ceeb19a2b1bb2fbdd67166c2946c"
+      },
+      {
+        "path": "steam_settings/depots.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/depots.EXAMPLE.txt",
+        "size": 43,
+        "executable": false,
+        "sha256": "8d5b3caa72f0ebf5e6155e0e129e63a244f6e880a5a2e23193bc215db27dce58"
+      },
+      {
+        "path": "steam_settings/depots.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/depots.txt",
+        "size": 43,
+        "executable": false,
+        "sha256": "8d5b3caa72f0ebf5e6155e0e129e63a244f6e880a5a2e23193bc215db27dce58"
+      },
+      {
+        "path": "steam_settings/fonts.EXAMPLE/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts.EXAMPLE/README.md",
+        "size": 93,
+        "executable": false,
+        "sha256": "44c948a84ef5b96868aaf7fd4623412173ca0a6671bedc2c93208001b925377f"
+      },
+      {
+        "path": "steam_settings/fonts.EXAMPLE/Roboto-Medium-LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts.EXAMPLE/Roboto-Medium-LICENSE.txt",
+        "size": 11358,
+        "executable": false,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "steam_settings/fonts.EXAMPLE/Roboto-Medium.ttf",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts.EXAMPLE/Roboto-Medium.ttf",
+        "size": 168644,
+        "executable": false,
+        "sha256": "9d0d55a303bfd13b79a87721f65185e93f235e2d77fe398b2dca67ac519915f5"
+      },
+      {
+        "path": "steam_settings/fonts/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts/README.md",
+        "size": 93,
+        "executable": false,
+        "sha256": "44c948a84ef5b96868aaf7fd4623412173ca0a6671bedc2c93208001b925377f"
+      },
+      {
+        "path": "steam_settings/fonts/Roboto-Medium-LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts/Roboto-Medium-LICENSE.txt",
+        "size": 11358,
+        "executable": false,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "steam_settings/fonts/Roboto-Medium.ttf",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/fonts/Roboto-Medium.ttf",
+        "size": 168644,
+        "executable": false,
+        "sha256": "9d0d55a303bfd13b79a87721f65185e93f235e2d77fe398b2dca67ac519915f5"
+      },
+      {
+        "path": "steam_settings/gc.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/gc.EXAMPLE.json",
+        "size": 52,
+        "executable": false,
+        "sha256": "38543e036cf59ad9a3a9dcc01350bedf3f241c504dab4db1915a462d30bf5df8"
+      },
+      {
+        "path": "steam_settings/gc.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/gc.json",
+        "size": 52,
+        "executable": false,
+        "sha256": "38543e036cf59ad9a3a9dcc01350bedf3f241c504dab4db1915a462d30bf5df8"
+      },
+      {
+        "path": "steam_settings/http.EXAMPLE/accounts.starbreeze.com/iam/oauth/token",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/http.EXAMPLE/accounts.starbreeze.com/iam/oauth/token",
+        "size": 473,
+        "executable": false,
+        "sha256": "9c14016bf474e932ab5efb001f299986557041a3cc742598b485bd12f3a247e1"
+      },
+      {
+        "path": "steam_settings/http/accounts.starbreeze.com/iam/oauth/token",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/http/accounts.starbreeze.com/iam/oauth/token",
+        "size": 473,
+        "executable": false,
+        "sha256": "9c14016bf474e932ab5efb001f299986557041a3cc742598b485bd12f3a247e1"
+      },
+      {
+        "path": "steam_settings/installed_app_ids.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/installed_app_ids.EXAMPLE.txt",
+        "size": 462,
+        "executable": false,
+        "sha256": "444d2869ae60aa76464d8c1fea8a29d13a241f171de7dd7d162d1acefb6a6827"
+      },
+      {
+        "path": "steam_settings/installed_app_ids.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/installed_app_ids.txt",
+        "size": 462,
+        "executable": false,
+        "sha256": "444d2869ae60aa76464d8c1fea8a29d13a241f171de7dd7d162d1acefb6a6827"
+      },
+      {
+        "path": "steam_settings/items.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/items.EXAMPLE.json",
+        "size": 3812,
+        "executable": false,
+        "sha256": "ad61a38229d67c69d167d0bd08da9d171e9586281b14d3b676c37e2be69da7f9"
+      },
+      {
+        "path": "steam_settings/items.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/items.json",
+        "size": 3812,
+        "executable": false,
+        "sha256": "ad61a38229d67c69d167d0bd08da9d171e9586281b14d3b676c37e2be69da7f9"
+      },
+      {
+        "path": "steam_settings/leaderboards.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/leaderboards.EXAMPLE.txt",
+        "size": 54,
+        "executable": false,
+        "sha256": "fea5d094c743ae66081cc3d30a6dd9cb1dddc65023584061b4d366bbe7ef4419"
+      },
+      {
+        "path": "steam_settings/leaderboards.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/leaderboards.txt",
+        "size": 54,
+        "executable": false,
+        "sha256": "fea5d094c743ae66081cc3d30a6dd9cb1dddc65023584061b4d366bbe7ef4419"
+      },
+      {
+        "path": "steam_settings/mod_images.EXAMPLE/12345/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mod_images.EXAMPLE/12345/README.md",
+        "size": 95,
+        "executable": false,
+        "sha256": "b50177dfd67f57617b9b5b8801f9642c73eb9990b0e32eb7edefbf026cb8550e"
+      },
+      {
+        "path": "steam_settings/mod_images.EXAMPLE/12345/my_preview_image.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mod_images.EXAMPLE/12345/my_preview_image.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/mod_images/12345/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mod_images/12345/README.md",
+        "size": 95,
+        "executable": false,
+        "sha256": "b50177dfd67f57617b9b5b8801f9642c73eb9990b0e32eb7edefbf026cb8550e"
+      },
+      {
+        "path": "steam_settings/mod_images/12345/my_preview_image.jpg",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mod_images/12345/my_preview_image.jpg",
+        "size": 3409,
+        "executable": false,
+        "sha256": "58f08592a940bcd85a9620b52c262b6ce1cd7a4b6cb6a3b6494028614794d2b2"
+      },
+      {
+        "path": "steam_settings/mods.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.EXAMPLE.json",
+        "size": 1870,
+        "executable": false,
+        "sha256": "020ddea0150d3d4ad4a7003971642bc0ef14aa5768e24edb9e559dba72e13c2e"
+      },
+      {
+        "path": "steam_settings/mods.EXAMPLE/12345/Readme.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.EXAMPLE/12345/Readme.txt",
+        "size": 93,
+        "executable": false,
+        "sha256": "87988d7e9f983d16c90fec7f6e84012357cb87007ac38247e0c62613d3f120e7"
+      },
+      {
+        "path": "steam_settings/mods.EXAMPLE/12345/mod_file1",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.EXAMPLE/12345/mod_file1",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/mods.EXAMPLE/12345/mod_file2",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.EXAMPLE/12345/mod_file2",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/mods.EXAMPLE/12345/random_mod_file",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.EXAMPLE/12345/random_mod_file",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/mods.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods.json",
+        "size": 1870,
+        "executable": false,
+        "sha256": "020ddea0150d3d4ad4a7003971642bc0ef14aa5768e24edb9e559dba72e13c2e"
+      },
+      {
+        "path": "steam_settings/mods/12345/Readme.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods/12345/Readme.txt",
+        "size": 93,
+        "executable": false,
+        "sha256": "87988d7e9f983d16c90fec7f6e84012357cb87007ac38247e0c62613d3f120e7"
+      },
+      {
+        "path": "steam_settings/mods/12345/mod_file1",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods/12345/mod_file1",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/mods/12345/mod_file2",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods/12345/mod_file2",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/mods/12345/random_mod_file",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/mods/12345/random_mod_file",
+        "size": 0,
+        "executable": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "steam_settings/purchased_keys.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/purchased_keys.EXAMPLE.txt",
+        "size": 500,
+        "executable": false,
+        "sha256": "12c3c828e472f02c6631ccee675710afac83c3bd5ef9e855fec50b338d02d32f"
+      },
+      {
+        "path": "steam_settings/purchased_keys.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/purchased_keys.txt",
+        "size": 500,
+        "executable": false,
+        "sha256": "12c3c828e472f02c6631ccee675710afac83c3bd5ef9e855fec50b338d02d32f"
+      },
+      {
+        "path": "steam_settings/sounds.EXAMPLE/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds.EXAMPLE/LICENSE.md",
+        "size": 293,
+        "executable": false,
+        "sha256": "9e8e842e01b28c4d23a7fc99efdae8fbd908f38f7b5780b8b4bcfdf24745dcaa"
+      },
+      {
+        "path": "steam_settings/sounds.EXAMPLE/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds.EXAMPLE/README.md",
+        "size": 265,
+        "executable": false,
+        "sha256": "fad5cfb25630bfd9d323342d1c129e706d5f7d7fc4b7564c5e0343ad55ef3dcc"
+      },
+      {
+        "path": "steam_settings/sounds.EXAMPLE/overlay_achievement_notification.wav",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds.EXAMPLE/overlay_achievement_notification.wav",
+        "size": 302674,
+        "executable": false,
+        "sha256": "7db2e0a85e47c75f7b64a4b89040f2a3129e2b5e2d03200d9aebea71d6b6572b"
+      },
+      {
+        "path": "steam_settings/sounds.EXAMPLE/overlay_friend_notification.wav",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds.EXAMPLE/overlay_friend_notification.wav",
+        "size": 302674,
+        "executable": false,
+        "sha256": "7db2e0a85e47c75f7b64a4b89040f2a3129e2b5e2d03200d9aebea71d6b6572b"
+      },
+      {
+        "path": "steam_settings/sounds/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds/LICENSE.md",
+        "size": 293,
+        "executable": false,
+        "sha256": "9e8e842e01b28c4d23a7fc99efdae8fbd908f38f7b5780b8b4bcfdf24745dcaa"
+      },
+      {
+        "path": "steam_settings/sounds/README.md",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds/README.md",
+        "size": 265,
+        "executable": false,
+        "sha256": "fad5cfb25630bfd9d323342d1c129e706d5f7d7fc4b7564c5e0343ad55ef3dcc"
+      },
+      {
+        "path": "steam_settings/sounds/overlay_achievement_notification.wav",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds/overlay_achievement_notification.wav",
+        "size": 302674,
+        "executable": false,
+        "sha256": "7db2e0a85e47c75f7b64a4b89040f2a3129e2b5e2d03200d9aebea71d6b6572b"
+      },
+      {
+        "path": "steam_settings/sounds/overlay_friend_notification.wav",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/sounds/overlay_friend_notification.wav",
+        "size": 302674,
+        "executable": false,
+        "sha256": "7db2e0a85e47c75f7b64a4b89040f2a3129e2b5e2d03200d9aebea71d6b6572b"
+      },
+      {
+        "path": "steam_settings/stats.EXAMPLE.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/stats.EXAMPLE.json",
+        "size": 714,
+        "executable": false,
+        "sha256": "b47c15e83bdf5c4a6ea94b5df623441c2cf427e8aed26a855c2ab7abe8a104ce"
+      },
+      {
+        "path": "steam_settings/stats.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/stats.json",
+        "size": 714,
+        "executable": false,
+        "sha256": "b47c15e83bdf5c4a6ea94b5df623441c2cf427e8aed26a855c2ab7abe8a104ce"
+      },
+      {
+        "path": "steam_settings/steam_appid.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/steam_appid.EXAMPLE.txt",
+        "size": 4,
+        "executable": false,
+        "sha256": "5db1fee4b5703808c48078a76768b155b421b210c0761cd6a5d223f4d99f1eaa"
+      },
+      {
+        "path": "steam_settings/steam_appid.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/steam_appid.txt",
+        "size": 4,
+        "executable": false,
+        "sha256": "5db1fee4b5703808c48078a76768b155b421b210c0761cd6a5d223f4d99f1eaa"
+      },
+      {
+        "path": "steam_settings/steam_interfaces.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/steam_interfaces.EXAMPLE.txt",
+        "size": 553,
+        "executable": false,
+        "sha256": "81b1e8327dcdde289ab6a3615f5bbd717a2185c86f78e06f65862331fb3dd40e"
+      },
+      {
+        "path": "steam_settings/steam_interfaces.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/steam_interfaces.txt",
+        "size": 553,
+        "executable": false,
+        "sha256": "81b1e8327dcdde289ab6a3615f5bbd717a2185c86f78e06f65862331fb3dd40e"
+      },
+      {
+        "path": "steam_settings/subscribed_groups.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/subscribed_groups.EXAMPLE.txt",
+        "size": 76,
+        "executable": false,
+        "sha256": "3625d3ff36ba9ba02e63dc997ee153647f2cfe282a761c3e65b9e1a61c420713"
+      },
+      {
+        "path": "steam_settings/subscribed_groups.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/subscribed_groups.txt",
+        "size": 76,
+        "executable": false,
+        "sha256": "3625d3ff36ba9ba02e63dc997ee153647f2cfe282a761c3e65b9e1a61c420713"
+      },
+      {
+        "path": "steam_settings/subscribed_groups_clans.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/subscribed_groups_clans.EXAMPLE.txt",
+        "size": 40,
+        "executable": false,
+        "sha256": "b0dc2d9d30a050d42643d2887161fe1e11992419a7168e00a41ace6ae402baf2"
+      },
+      {
+        "path": "steam_settings/subscribed_groups_clans.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/subscribed_groups_clans.txt",
+        "size": 40,
+        "executable": false,
+        "sha256": "b0dc2d9d30a050d42643d2887161fe1e11992419a7168e00a41ace6ae402baf2"
+      },
+      {
+        "path": "steam_settings/supported_languages.EXAMPLE.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/supported_languages.EXAMPLE.txt",
+        "size": 62,
+        "executable": false,
+        "sha256": "b4d62455b48cb1a4cc87094794b1945c78095309fdbe64e326f8668e770e063f"
+      },
+      {
+        "path": "steam_settings/supported_languages.txt",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steam_settings/supported_languages.txt",
+        "size": 62,
+        "executable": false,
+        "sha256": "b4d62455b48cb1a4cc87094794b1945c78095309fdbe64e326f8668e770e063f"
+      },
+      {
+        "path": "steamclient.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient.dll",
+        "size": 92584,
+        "executable": false,
+        "sha256": "f36cd4eaa96775e32949ff91b22cce1d7221f65ae52f494193c00f6e574b2f7d"
+      },
+      {
+        "path": "steamclient64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient64.dll",
+        "size": 111016,
+        "executable": false,
+        "sha256": "f3f06d9c3b9a834f258fbb2e411b7c83a670a5babab2e133c4b75c25356eaa64"
+      },
+      {
+        "path": "steamclient_extra_x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient_extra_x64.dll",
+        "size": 303528,
+        "executable": false,
+        "sha256": "da5d2dd19e78b739edd909ae83caa7a0493d79cbdc8a6d7f714097fad9253d03"
+      },
+      {
+        "path": "steamclient_extra_x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient_extra_x86.dll",
+        "size": 251816,
+        "executable": false,
+        "sha256": "668c98dc5cca37d2a9d7d75edbc5d5eabea9de3ffdbab8cf8ecbf1281974fb09"
+      },
+      {
+        "path": "steamclient_loader_x86.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient_loader_x86.exe",
+        "size": 290216,
+        "executable": false,
+        "sha256": "11e5711892c7ad38106956eecd9b31de9b3be4496426fa062adbc0aa3a315374"
+      }
+    ]
+  },
+  {
+    "id": "steamless",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "CC-BY-NC-ND-4.0",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/",
+    "files": [
+      {
+        "path": "Plugins/ExamplePlugin.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/ExamplePlugin.dll",
+        "size": 5632,
+        "executable": false,
+        "sha256": "c6dce0ce7d432fbb8cea249e4dcd1394adc8c2adc819012c745b709c68e585a9"
+      },
+      {
+        "path": "Plugins/SharpDisasm.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/SharpDisasm.dll",
+        "size": 220672,
+        "executable": false,
+        "sha256": "6d3ce990cdf58da228697d25416d16d15994135c5f66571fe1e00e9c975bc2cf"
+      },
+      {
+        "path": "Plugins/Steamless.API.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.API.dll",
+        "size": 34304,
+        "executable": false,
+        "sha256": "d6acc4b0cc768213a46ffad0a6bf6070a6b13f79a22e0588f0ab50c950f9248c"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant10.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant10.x86.dll",
+        "size": 11264,
+        "executable": false,
+        "sha256": "c890dcda2e79970e5a5541ee6340e503e829982f1613c36119be7f754c32065d"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant20.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant20.x86.dll",
+        "size": 19456,
+        "executable": false,
+        "sha256": "3cca1fb90b1aa3e1703565a095b665acfc8073b889ff44ef97d17f4221fe707f"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant21.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant21.x86.dll",
+        "size": 24576,
+        "executable": false,
+        "sha256": "2f92eeaf47accd0f87bbe7fb7cf85fcd3c00830f464dfdbd4f661449bbc92b21"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant30.x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant30.x64.dll",
+        "size": 17408,
+        "executable": false,
+        "sha256": "81f1d36540fc8756b155b3e58b34f54da4f9bc1f974988cf91d0b17ffc1d14d8"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant30.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant30.x86.dll",
+        "size": 16384,
+        "executable": false,
+        "sha256": "fe2102b096d44aa956788d067856225254ee4e43c133c939e3cd5c0a6cc37399"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant31.x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant31.x64.dll",
+        "size": 16384,
+        "executable": false,
+        "sha256": "790f1974f97258058cb57c20787e8a2fcb5c16cca0911719b698580d74e38918"
+      },
+      {
+        "path": "Plugins/Steamless.Unpacker.Variant31.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Plugins/Steamless.Unpacker.Variant31.x86.dll",
+        "size": 16896,
+        "executable": false,
+        "sha256": "fc7e1ac80a7d2c0121e083d218b7369c4d217eccaf395cd1c0292d000f19446b"
+      },
+      {
+        "path": "Steamless.CLI.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Steamless.CLI.exe",
+        "size": 113152,
+        "executable": true,
+        "sha256": "70cd54354865ede605ec0fbfadf15f5302aa85a777394f28b0de6acfd243e795"
+      },
+      {
+        "path": "Steamless.CLI.exe.config",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/steamless/Steamless.CLI.exe.config",
+        "size": 184,
+        "executable": false,
+        "sha256": "8d65429e0b2a82c11d3edc4ea04ed200aedfea1d7ef8b984e88a8e97cff54770"
+      }
+    ]
+  },
+  {
+    "id": "coldloader",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See upstream notices",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/coldloader/",
+    "files": [
+      {
+        "path": "coldloader_x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/coldloader/coldloader_x64.dll",
+        "size": 199680,
+        "executable": false,
+        "sha256": "b80e5f55504cef36c156a003a0038c6034c01821d91b52ba04700a3b500c54b0"
+      },
+      {
+        "path": "coldloader_x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/coldloader/coldloader_x86.dll",
+        "size": 178176,
+        "executable": false,
+        "sha256": "5dab0c6eb64b587451a62d65cb8fac066b0f02a774a887ea2c4851c5a77cc2b6"
+      },
+      {
+        "path": "version_x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/coldloader/version_x64.dll",
+        "size": 134144,
+        "executable": false,
+        "sha256": "23eb3f18d19761433cc107abae474f8bb4a6092a815edd6de13a6d63c1e981e6"
+      },
+      {
+        "path": "version_x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/coldloader/version_x86.dll",
+        "size": 113152,
+        "executable": false,
+        "sha256": "07970ceb11d8a7ade5a5a762d30027816dfb1270727c7be417ba7613e680af80"
+      }
+    ]
+  },
+  {
+    "id": "creamapi",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See upstream notices",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/CreamAPI/",
+    "files": [
+      {
+        "path": "steam_api.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/CreamAPI/steam_api.dll",
+        "size": 682856,
+        "executable": false,
+        "sha256": "23e91e44de1adbd0544a578ab80e46c968f9394e5b419240034a55a59b131675"
+      },
+      {
+        "path": "steam_api64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/CreamAPI/steam_api64.dll",
+        "size": 732520,
+        "executable": false,
+        "sha256": "d00a9b72e696cf5c88a5b4bbc4d7d308f9bac51a8c4712d6b26cfd863938a25f"
+      }
+    ]
+  },
+  {
+    "id": "smokeapi",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See upstream notices",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/SmokeAPI/",
+    "files": [
+      {
+        "path": "steam_api.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/SmokeAPI/steam_api.dll",
+        "size": 3526144,
+        "executable": false,
+        "sha256": "145aadfffde5140991995d76dca8f2423e9d7f9dbb66bc21565cee59746f027b"
+      },
+      {
+        "path": "steam_api64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/SmokeAPI/steam_api64.dll",
+        "size": 4204032,
+        "executable": false,
+        "sha256": "3891cd70b8e06cad474b9ea5b6d7c3d19b9948c41df2495e3cf02d2a256498ef"
+      }
+    ]
+  },
+  {
+    "id": "uplayr1",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See upstream notices",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR1/",
+    "files": [
+      {
+        "path": "uplay_r1_loader.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR1/uplay_r1_loader.dll",
+        "size": 2907648,
+        "executable": false,
+        "sha256": "5758febb50908ada33fc460ed14f2dfee15dee42fe7cfb561540e6f2049bbb02"
+      },
+      {
+        "path": "uplay_r1_loader64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR1/uplay_r1_loader64.dll",
+        "size": 3359232,
+        "executable": false,
+        "sha256": "f83c5663f73c9310d6ce932094a7aee06fdbab8aaf7a445a60b29529070174b2"
+      }
+    ]
+  },
+  {
+    "id": "uplayr2",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See upstream notices",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR2/",
+    "files": [
+      {
+        "path": "upc_r2_loader.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR2/upc_r2_loader.dll",
+        "size": 6674432,
+        "executable": false,
+        "sha256": "1d5a764134098691af20373576f8b8fcad8181f744cbbe084b4767bc71af9292"
+      },
+      {
+        "path": "upc_r2_loader64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/sff/dlc_unlockers/resources/UplayR2/upc_r2_loader64.dll",
+        "size": 8138240,
+        "executable": false,
+        "sha256": "4f676ad21c59c1b03e040dfce133d04cf836a99349bfe73cb778cba0465b910c"
+      }
+    ]
+  },
+  {
+    "id": "steamauto",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "MIT; component notices apply",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/",
+    "files": [
+      {
+        "path": "AuthenticodeExaminer.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/AuthenticodeExaminer.dll",
+        "size": 51120,
+        "executable": false,
+        "sha256": "6676c243f49bd2f560f28b597abc705997fbe1dcd2bab5b7c7e4db1d09055a18"
+      },
+      {
+        "path": "FuzzySharp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/FuzzySharp.dll",
+        "size": 39936,
+        "executable": false,
+        "sha256": "60a466c258ce5013b68924c34d6f7f3c4c7063d1dd7e9900cddcd011f0cc204e"
+      },
+      {
+        "path": "Goldberg/commit_id",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/commit_id",
+        "size": 40,
+        "executable": false,
+        "sha256": "4ff26ab3578c30a4eabf04bfd255acc2aa5fc41c06f1da36a1cb3df53ff7ba32"
+      },
+      {
+        "path": "Goldberg/experimental/x64/steam_api64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/experimental/x64/steam_api64.dll",
+        "size": 22779304,
+        "executable": false,
+        "sha256": "efa90433e5e6d5eb4599ee199e0eb8605a7e3807f87ff865a67477c760dad555"
+      },
+      {
+        "path": "Goldberg/experimental/x64/steamclient64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/experimental/x64/steamclient64.dll",
+        "size": 111016,
+        "executable": false,
+        "sha256": "f3f06d9c3b9a834f258fbb2e411b7c83a670a5babab2e133c4b75c25356eaa64"
+      },
+      {
+        "path": "Goldberg/experimental/x86/steam_api.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/experimental/x86/steam_api.dll",
+        "size": 19995048,
+        "executable": false,
+        "sha256": "5e2cd22bfac090aa868d8e479913c2d8cdd5e32f9570a67b83706fd99e277909"
+      },
+      {
+        "path": "Goldberg/experimental/x86/steamclient.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/experimental/x86/steamclient.dll",
+        "size": 92584,
+        "executable": false,
+        "sha256": "f36cd4eaa96775e32949ff91b22cce1d7221f65ae52f494193c00f6e574b2f7d"
+      },
+      {
+        "path": "Goldberg/regular/x64/steam_api64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/regular/x64/steam_api64.dll",
+        "size": 11429288,
+        "executable": false,
+        "sha256": "8b1bd0bea955aaeccd6de92d2a8c6208757dde038fd3c074113f0c2609e04de1"
+      },
+      {
+        "path": "Goldberg/regular/x86/steam_api.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/regular/x86/steam_api.dll",
+        "size": 9189288,
+        "executable": false,
+        "sha256": "8e804d38cde295b1f08a6c41ecc8978fde69e53e2a6e22652017371a49cba1be"
+      },
+      {
+        "path": "Goldberg/steam_old_lib/Steam.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Goldberg/steam_old_lib/Steam.dll",
+        "size": 164776,
+        "executable": false,
+        "sha256": "c8d600c9df0d4211964a64a7b5515b122e1f078092f74b11c67662ada4e42d47"
+      },
+      {
+        "path": "IniFile.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/IniFile.dll",
+        "size": 40448,
+        "executable": false,
+        "sha256": "10663ebad2ea95411741405333a8e57863fa4402e5369eb530091aaa1ceeacaa"
+      },
+      {
+        "path": "Microsoft.CSharp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.CSharp.dll",
+        "size": 927528,
+        "executable": false,
+        "sha256": "a379d7bc0cdd79daa4ed88a73d624fe8dd4aca3fb032e3a9ce1c8d34bfbc0292"
+      },
+      {
+        "path": "Microsoft.DiaSymReader.Native.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.DiaSymReader.Native.x86.dll",
+        "size": 2146344,
+        "executable": false,
+        "sha256": "6564545beab3cb9cd35cfb0cb77d4ec8ba3297d384e98f2fa24c536184e7830f"
+      },
+      {
+        "path": "Microsoft.Extensions.ObjectPool.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.Extensions.ObjectPool.dll",
+        "size": 22816,
+        "executable": false,
+        "sha256": "dba21041ab0064cf94f3e821df1435d880cec2ce5408144e3ec5199347349bc0"
+      },
+      {
+        "path": "Microsoft.VisualBasic.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.VisualBasic.Core.dll",
+        "size": 1156944,
+        "executable": false,
+        "sha256": "d94c41946cc05549fd77eb2604e4ed7c6c5e01b972c0183e6b0bc261dfe4612f"
+      },
+      {
+        "path": "Microsoft.VisualBasic.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.VisualBasic.dll",
+        "size": 17192,
+        "executable": false,
+        "sha256": "3e57de04aa8d54170f277eb02b864162a32d5e379af5ccb122d86e36ab5922eb"
+      },
+      {
+        "path": "Microsoft.Win32.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.Win32.Primitives.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "d9568f77202455a9ddd14a26bb5f65e16e4b072ba539085fced021b47d0c63bf"
+      },
+      {
+        "path": "Microsoft.Win32.Registry.AccessControl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.Win32.Registry.AccessControl.dll",
+        "size": 21840,
+        "executable": false,
+        "sha256": "5b691b7ff90cbc580d8cb58de6fb862d3bc34597f3034d16c1d9e7c293e4bb99"
+      },
+      {
+        "path": "Microsoft.Win32.Registry.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.Win32.Registry.dll",
+        "size": 108328,
+        "executable": false,
+        "sha256": "3dd2307486b3f9339447a73ad44435a05369ef0f0dc221ef86f8dfe1cd5b07e8"
+      },
+      {
+        "path": "Microsoft.Win32.SystemEvents.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Microsoft.Win32.SystemEvents.dll",
+        "size": 80720,
+        "executable": false,
+        "sha256": "018d65d103deea431806ea8a93e43986a65683aec683a0279ef76d56bdaa94bc"
+      },
+      {
+        "path": "NinjaNye.SearchExtensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/NinjaNye.SearchExtensions.dll",
+        "size": 42496,
+        "executable": false,
+        "sha256": "ccb6114aa9d3e71ad33cc52e71e15ab3a143f1728afd24dc4e3ef35983003325"
+      },
+      {
+        "path": "SQLite-net.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SQLite-net.dll",
+        "size": 107520,
+        "executable": false,
+        "sha256": "ff487414c4acb32a9ee8e0aa93def06a53f7b57df93d2e7a26054e18df85723e"
+      },
+      {
+        "path": "SQLitePCLRaw.batteries_v2.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SQLitePCLRaw.batteries_v2.dll",
+        "size": 5120,
+        "executable": false,
+        "sha256": "93294fb88891e8828ddbb51f1f52bc54297d9fda5241b8a46935fea75d20b6a3"
+      },
+      {
+        "path": "SQLitePCLRaw.core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SQLitePCLRaw.core.dll",
+        "size": 50688,
+        "executable": false,
+        "sha256": "979edcc9056ac06d5f52b12d9b7733b1217914ab50bf123ab312e027e7ac57a5"
+      },
+      {
+        "path": "SQLitePCLRaw.provider.e_sqlite3.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "size": 36352,
+        "executable": false,
+        "sha256": "25f9fb72c6ca5157a95d102a0c592b8be7f8c1231e153d8235e7153bbeed4ba5"
+      },
+      {
+        "path": "Serilog.Expressions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Serilog.Expressions.dll",
+        "size": 200704,
+        "executable": false,
+        "sha256": "e3fc0c1c14ab4221ce55f6b926f1a6bb33654009242d3527526064995f70b9e8"
+      },
+      {
+        "path": "Serilog.Sinks.Console.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Serilog.Sinks.Console.dll",
+        "size": 38400,
+        "executable": false,
+        "sha256": "dc88002ddd9f5fd0ffec9a6568ef89954671f60f2c9161593ee78932538c1e3e"
+      },
+      {
+        "path": "Serilog.Sinks.File.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Serilog.Sinks.File.dll",
+        "size": 36864,
+        "executable": false,
+        "sha256": "4f4282671c2ac68284b4dc99f7a76eac9cbd4e659978cef642cff9e6c01b676d"
+      },
+      {
+        "path": "Serilog.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Serilog.dll",
+        "size": 162304,
+        "executable": false,
+        "sha256": "e6b551a75ff7fff20dd0024670d5c42dfb74afa16d54aa0201106dea400a9505"
+      },
+      {
+        "path": "SharpCompress.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SharpCompress.dll",
+        "size": 2281472,
+        "executable": false,
+        "sha256": "db4d49f11b30f2ababc6ed98551de818d8b6f15da88fada8bccd360ea3e12d73"
+      },
+      {
+        "path": "SharpDisasm.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SharpDisasm.dll",
+        "size": 220672,
+        "executable": false,
+        "sha256": "6d3ce990cdf58da228697d25416d16d15994135c5f66571fe1e00e9c975bc2cf"
+      },
+      {
+        "path": "SteamAPICheckBypass/SteamAPICheckBypass.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAPICheckBypass/SteamAPICheckBypass.dll",
+        "size": 491008,
+        "executable": false,
+        "sha256": "fbb12327c54b89bdf348be60f2bf7dbeb8315d49a5fb3bbb14c899ce835c6a56"
+      },
+      {
+        "path": "SteamAPICheckBypass/SteamAPICheckBypass_x32.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAPICheckBypass/SteamAPICheckBypass_x32.dll",
+        "size": 390656,
+        "executable": false,
+        "sha256": "b597eb2532a4f4ea352ddadbfbd3e0d27805ad0504cad0eb36f92e51f25714a9"
+      },
+      {
+        "path": "SteamAutoCrack.CLI.deps.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAutoCrack.CLI.deps.json",
+        "size": 70686,
+        "executable": false,
+        "sha256": "c8cdb74d71b01ee9c7e2fa25c6c262a4f94b97f413f5af756844d383c9595061"
+      },
+      {
+        "path": "SteamAutoCrack.CLI.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAutoCrack.CLI.dll",
+        "size": 426496,
+        "executable": false,
+        "sha256": "74eec247b9fe7b64cfd85f80ff41cc3559e92ba8ff46c1dacd415b54d7ca7ae6"
+      },
+      {
+        "path": "SteamAutoCrack.CLI.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAutoCrack.CLI.exe",
+        "size": 542720,
+        "executable": true,
+        "sha256": "8ece36ee53eca0522e591b03367316bb82fd8f96a5a803bd44183297e6c5567b"
+      },
+      {
+        "path": "SteamAutoCrack.CLI.runtimeconfig.json",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAutoCrack.CLI.runtimeconfig.json",
+        "size": 415,
+        "executable": false,
+        "sha256": "cf424d40e410a70de5e27db988d333dcb13419fa905b87592206c1eaa67c69bc"
+      },
+      {
+        "path": "SteamAutoCrack.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamAutoCrack.Core.dll",
+        "size": 188928,
+        "executable": false,
+        "sha256": "747ed8c6ad7318420661ea78840e193ecad8346e04a82c262131ba738d3655a3"
+      },
+      {
+        "path": "SteamKit2.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/SteamKit2.dll",
+        "size": 6891008,
+        "executable": false,
+        "sha256": "ea304bb652a5bc5c49bf2cbf2ceeea350b558fe8d56c527e4cf6e98a367dea9b"
+      },
+      {
+        "path": "Steamless.API.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.API.dll",
+        "size": 34304,
+        "executable": false,
+        "sha256": "bb6bcc73df8078ea9189eb0bd58d6c72c127016c16e30801793e1bd2a851ba6f"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant10.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant10.x86.dll",
+        "size": 11776,
+        "executable": false,
+        "sha256": "ba9f107d6612461d0be56e60d67be2fae9bd12f398da7166ad2cc4cfb8bec065"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant20.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant20.x86.dll",
+        "size": 19968,
+        "executable": false,
+        "sha256": "219b78fc68b8fbdd30c77898c0c39db7a47947d35bb11033fedb2f1e6605e931"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant21.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant21.x86.dll",
+        "size": 25088,
+        "executable": false,
+        "sha256": "e64179d006aa72a1614cb5123baf36cc39564ce8324ac5cdf049115c80967b5d"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant30.x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant30.x64.dll",
+        "size": 17920,
+        "executable": false,
+        "sha256": "7a669ddec04d27bcfc77b25cfcf9fe016d14022f9dd8de440326cf8c7fb7d5fa"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant30.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant30.x86.dll",
+        "size": 16896,
+        "executable": false,
+        "sha256": "450c6e8a4d01c065f3cca44c87871fafd1ad5ddaf645b728ef0e9a839e8f2e57"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant31.x64.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant31.x64.dll",
+        "size": 16896,
+        "executable": false,
+        "sha256": "a9fe3588ce6d1dcc0a8d3eeddc04c050ba1abd3cc376029a9458657676375d4b"
+      },
+      {
+        "path": "Steamless.Unpacker.Variant31.x86.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/Steamless.Unpacker.Variant31.x86.dll",
+        "size": 16896,
+        "executable": false,
+        "sha256": "df165093e17c4e1c204ff7caa7ee013cc09d2b28139bd20d3425d110fd419288"
+      },
+      {
+        "path": "System.AppContext.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.AppContext.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "8b5db6ef15bff3db7c8f88f682ef21053fdcc89f07df7bc84a39f096387cff66"
+      },
+      {
+        "path": "System.Buffers.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Buffers.dll",
+        "size": 15184,
+        "executable": false,
+        "sha256": "e4d0ea03460fdc11bf12d3020451587ebd7a4a8504d41083764131905be9b761"
+      },
+      {
+        "path": "System.CodeDom.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.CodeDom.dll",
+        "size": 184616,
+        "executable": false,
+        "sha256": "93b489efc35c77a9c92386eb5028aff53ebdc149d13e6ad1f6f4b1b7b82a59be"
+      },
+      {
+        "path": "System.Collections.Concurrent.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Collections.Concurrent.dll",
+        "size": 218920,
+        "executable": false,
+        "sha256": "1f16134d43d2cb775bcba3af87e91914b3e79d486a89a061daf811c976bfc25e"
+      },
+      {
+        "path": "System.Collections.Immutable.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Collections.Immutable.dll",
+        "size": 898896,
+        "executable": false,
+        "sha256": "810b50e171c701acef9ad6084246f66e4ab51bd91ef235046f4367b56c2515ae"
+      },
+      {
+        "path": "System.Collections.NonGeneric.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Collections.NonGeneric.dll",
+        "size": 96040,
+        "executable": false,
+        "sha256": "05087564c9d2843b3c32caa8470b3005f9354b964578f5a18202b902731c4c94"
+      },
+      {
+        "path": "System.Collections.Specialized.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Collections.Specialized.dll",
+        "size": 91944,
+        "executable": false,
+        "sha256": "57e7aa3501a6b2c198c20d2c7774df3a6aa57fc04b15b99c2f90646ba5688dca"
+      },
+      {
+        "path": "System.Collections.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Collections.dll",
+        "size": 280360,
+        "executable": false,
+        "sha256": "db09be299b9d6d3a2888e83d54c76c910525cb5cdfc43eb560380251e185afe5"
+      },
+      {
+        "path": "System.CommandLine.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.CommandLine.dll",
+        "size": 151352,
+        "executable": false,
+        "sha256": "b3cfb3ca790a19efa2ae73e47786bd272230f38eced1b84ca68b97dadcd8ea3c"
+      },
+      {
+        "path": "System.ComponentModel.Annotations.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.Annotations.dll",
+        "size": 190240,
+        "executable": false,
+        "sha256": "0db7a34ac2ec28f5e4971710b96b73cdaa9c86961e3ef15afd5ed8867cec6f27"
+      },
+      {
+        "path": "System.ComponentModel.Composition.Registration.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.Composition.Registration.dll",
+        "size": 50512,
+        "executable": false,
+        "sha256": "7fc957a01b670077e5e8e5b1fce0f1ed8b80cf808976f279b7a2ab253e7c5736"
+      },
+      {
+        "path": "System.ComponentModel.Composition.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.Composition.dll",
+        "size": 296232,
+        "executable": false,
+        "sha256": "bcad2ba45eb826180ad81b8904efd460431d5ab268e43b01c69d2b0f1b416448"
+      },
+      {
+        "path": "System.ComponentModel.DataAnnotations.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.DataAnnotations.dll",
+        "size": 16680,
+        "executable": false,
+        "sha256": "5216da8b7455db07743aef744d5d1780bcc1cabe3674d52e24f83ac97bc07f3d"
+      },
+      {
+        "path": "System.ComponentModel.EventBasedAsync.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.EventBasedAsync.dll",
+        "size": 46888,
+        "executable": false,
+        "sha256": "2b1f7634602dfea33e9c4e36f3c90dafa1023df7e04199353d7f960920fb55eb"
+      },
+      {
+        "path": "System.ComponentModel.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.Primitives.dll",
+        "size": 75560,
+        "executable": false,
+        "sha256": "c80ea973aad04848766e6cbbe8a1971c5ce858baa229bc01e14bcf260cc33a92"
+      },
+      {
+        "path": "System.ComponentModel.TypeConverter.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.TypeConverter.dll",
+        "size": 714536,
+        "executable": false,
+        "sha256": "db64e1073d811e79647ecd3aed40308630c07a5025381d2ce114603e45a1da9a"
+      },
+      {
+        "path": "System.ComponentModel.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ComponentModel.dll",
+        "size": 30544,
+        "executable": false,
+        "sha256": "731576cf60e007f96c884e11bf26aca9efa9485d4624fd83817ccb74b34a91ee"
+      },
+      {
+        "path": "System.Configuration.ConfigurationManager.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Configuration.ConfigurationManager.dll",
+        "size": 444240,
+        "executable": false,
+        "sha256": "c94e388bfb199e1c4fdd97cca122dc8470c85ee46614b2f202fbd9c823f00660"
+      },
+      {
+        "path": "System.Configuration.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Configuration.dll",
+        "size": 19240,
+        "executable": false,
+        "sha256": "d25e135d7f8a40c9fc8e699a928cca0df44b8c6256a29ca6df2f6b2b3bfeee49"
+      },
+      {
+        "path": "System.Console.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Console.dll",
+        "size": 157480,
+        "executable": false,
+        "sha256": "cd04a67122d8942ba5046d58b42c508243e50d6a566b14d7e8b4c6420c4207b0"
+      },
+      {
+        "path": "System.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Core.dll",
+        "size": 23336,
+        "executable": false,
+        "sha256": "02272b0b306f2bb0c28111f2414a0a963723a995ed0395396c6016bc507aece9"
+      },
+      {
+        "path": "System.Data.Common.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.Common.dll",
+        "size": 2656040,
+        "executable": false,
+        "sha256": "f4257b53940a52d3c1fef0e6b6911c9113c8cdc8f2a0a496c0f777625ffa9126"
+      },
+      {
+        "path": "System.Data.DataSetExtensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.DataSetExtensions.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "68de79f807f4e674603955ca27c9d36666e3d6f5d7b1a6025904bde6509afe2b"
+      },
+      {
+        "path": "System.Data.Odbc.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.Odbc.dll",
+        "size": 298280,
+        "executable": false,
+        "sha256": "d2283f5573dc04df3be9a3f74df0550b89172ffb375a351b6618e765ee875000"
+      },
+      {
+        "path": "System.Data.OleDb.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.OleDb.dll",
+        "size": 415528,
+        "executable": false,
+        "sha256": "6b7bfb378812b7adebe0152de9b18046037d7a3a4b50742a4e722e24721b09de"
+      },
+      {
+        "path": "System.Data.SqlClient.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.SqlClient.dll",
+        "size": 1027344,
+        "executable": false,
+        "sha256": "9d864a90b92bded2e59baf4a4bf37c6d3aca31316c8918e062d18995a895bfcc"
+      },
+      {
+        "path": "System.Data.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Data.dll",
+        "size": 25424,
+        "executable": false,
+        "sha256": "41029a11ab11cd581e34f39c0069d534b75c6dc46c4bb0f8ac5e728994f3de11"
+      },
+      {
+        "path": "System.Diagnostics.Contracts.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.Contracts.dll",
+        "size": 16208,
+        "executable": false,
+        "sha256": "208d1074b60d314be94786221f81101c1cd6bf4e29134e08c74f06799f2adbf9"
+      },
+      {
+        "path": "System.Diagnostics.Debug.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.Debug.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "2f2711656d0b216a129e45b0193117c0d62e36e088d8af758d997531ab97d177"
+      },
+      {
+        "path": "System.Diagnostics.DiagnosticSource.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.DiagnosticSource.dll",
+        "size": 476968,
+        "executable": false,
+        "sha256": "71f13fc98dd62c19f7ef707bc44a315696ad0fd9ef5e766ae59a8eb18753f4f9"
+      },
+      {
+        "path": "System.Diagnostics.EventLog.Messages.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.EventLog.Messages.dll",
+        "size": 800552,
+        "executable": false,
+        "sha256": "aab4074e21c0ee7fabf8d1adeca5d39b9af5049b3820a6f617402bf372bb2cbc"
+      },
+      {
+        "path": "System.Diagnostics.EventLog.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.EventLog.dll",
+        "size": 176424,
+        "executable": false,
+        "sha256": "6e4f72816bed7d84802233b3bfd9e5f5097e488567e3dc21406a562ff41fe581"
+      },
+      {
+        "path": "System.Diagnostics.FileVersionInfo.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.FileVersionInfo.dll",
+        "size": 42792,
+        "executable": false,
+        "sha256": "79ae72ef9dc1338ff75a715959f4b5096c7bba59d705cd721e05d407df222d5b"
+      },
+      {
+        "path": "System.Diagnostics.PerformanceCounter.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.PerformanceCounter.dll",
+        "size": 139088,
+        "executable": false,
+        "sha256": "b863747154c164adad44f722ff68c3ba9ab6625c15c563d0867ba8b0c42eb123"
+      },
+      {
+        "path": "System.Diagnostics.Process.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.Process.dll",
+        "size": 304976,
+        "executable": false,
+        "sha256": "4194a78c89b366bb2d2f4329a4d52c2b45b326248e0dbf6238a469f25927b556"
+      },
+      {
+        "path": "System.Diagnostics.StackTrace.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.StackTrace.dll",
+        "size": 46928,
+        "executable": false,
+        "sha256": "bb1eff3797433fb6c1b75f242455f9994dac16f9bc719fc4ff2b8f43acdf2901"
+      },
+      {
+        "path": "System.Diagnostics.TextWriterTraceListener.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.TextWriterTraceListener.dll",
+        "size": 63272,
+        "executable": false,
+        "sha256": "6012f88abc84430266a8d889093ed74073683876857754c1701b815bb44e21b6"
+      },
+      {
+        "path": "System.Diagnostics.Tools.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.Tools.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "39a4e0c88ec48f0a8bb8b15c03f999f1bb20f44cf843551c72d7ccbb1a4213a8"
+      },
+      {
+        "path": "System.Diagnostics.TraceSource.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.TraceSource.dll",
+        "size": 132904,
+        "executable": false,
+        "sha256": "952e58f0084d9d5fd4356e7c4a5f48ef03bb9aad12eb2e96f9ce1dc0e5c4af08"
+      },
+      {
+        "path": "System.Diagnostics.Tracing.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Diagnostics.Tracing.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "0fd081310ad602b0bc7812302faae77197cda4ffc3c44daf63c1d43a7976242b"
+      },
+      {
+        "path": "System.DirectoryServices.AccountManagement.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.DirectoryServices.AccountManagement.dll",
+        "size": 303952,
+        "executable": false,
+        "sha256": "6cd1b0a4cd569de173967cb15a10662b06f5e7edee02ad77db5ac431e7ea5319"
+      },
+      {
+        "path": "System.DirectoryServices.Protocols.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.DirectoryServices.Protocols.dll",
+        "size": 182056,
+        "executable": false,
+        "sha256": "0e62d2606d7c07099d7042feea9334e14383efb6b00d9c6b219d1a8b2376a62c"
+      },
+      {
+        "path": "System.DirectoryServices.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.DirectoryServices.dll",
+        "size": 425768,
+        "executable": false,
+        "sha256": "0c81b24f57e6b6b5be03c33ea0117be1755f2a4f8902ea8aabc5604ba64b57c1"
+      },
+      {
+        "path": "System.Drawing.Common.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Drawing.Common.dll",
+        "size": 422184,
+        "executable": false,
+        "sha256": "d20b10d6289ac5e3cbbd4d46f798a555bcf2ef39c6380d80031d4590830e47bd"
+      },
+      {
+        "path": "System.Drawing.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Drawing.Primitives.dll",
+        "size": 128808,
+        "executable": false,
+        "sha256": "2745c7289f74218e38ddfb727bd1468f58c3019d390845c43e2458c343f60c35"
+      },
+      {
+        "path": "System.Drawing.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Drawing.dll",
+        "size": 20264,
+        "executable": false,
+        "sha256": "ccf89c77042a541da20f3f575d7104f0fe1380a8f9ea6cc0b21b30c46161032c"
+      },
+      {
+        "path": "System.Dynamic.Runtime.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Dynamic.Runtime.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "9131c13c902c44c8535b3eb6cf35329917cc6479b297f3f40c8add387bb7f86a"
+      },
+      {
+        "path": "System.Formats.Asn1.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Formats.Asn1.dll",
+        "size": 218960,
+        "executable": false,
+        "sha256": "1c9e80e17a1f779a448dd898c867ebd6cebdca3bf4a2601a7708ea053fc03ebf"
+      },
+      {
+        "path": "System.Formats.Tar.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Formats.Tar.dll",
+        "size": 255784,
+        "executable": false,
+        "sha256": "2a5f744e18c1993675360804ad0af9084c7d917f1a04f5fb3fc5679ac527d909"
+      },
+      {
+        "path": "System.Globalization.Calendars.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Globalization.Calendars.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "861fa875d478fbcbaa541b1bae0adc4ae0d5ed9a1a0d977fff251cf0b3bad6dc"
+      },
+      {
+        "path": "System.Globalization.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Globalization.Extensions.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "fa68f115d0a642638f4e01b947c1ab281ea3ace64342e09644bfd3e00dbd8069"
+      },
+      {
+        "path": "System.Globalization.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Globalization.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "60ab4e55ad0faaf36ad7f2eb19a7a9e824d92a86b9913a53487e5a9d2deae959"
+      },
+      {
+        "path": "System.IO.Compression.Brotli.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Compression.Brotli.dll",
+        "size": 75560,
+        "executable": false,
+        "sha256": "5920eb4e8cfcc66caec8048a3c5b3cc3b6b0891e832cf785f8e92d60d9efbb81"
+      },
+      {
+        "path": "System.IO.Compression.FileSystem.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Compression.FileSystem.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "4cae32a673cc2289ebcde5a93444d07f1fa15b8559dcc62e987910b1899c94f1"
+      },
+      {
+        "path": "System.IO.Compression.Native.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Compression.Native.dll",
+        "size": 846672,
+        "executable": false,
+        "sha256": "65e94ee2e247d21d1de1664e06e33f8b0dfc6e6751d66527779c4b80bfb56538"
+      },
+      {
+        "path": "System.IO.Compression.ZipFile.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Compression.ZipFile.dll",
+        "size": 91944,
+        "executable": false,
+        "sha256": "4c01ba8fe36956fcb7df2cf82660894d51a7b901c659ef08849ce69464c8d5d0"
+      },
+      {
+        "path": "System.IO.Compression.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Compression.dll",
+        "size": 403240,
+        "executable": false,
+        "sha256": "6129cf7e77bf5bf586b0adc72c5b3a866af5f44e68318a111f522218e448589a"
+      },
+      {
+        "path": "System.IO.FileSystem.AccessControl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.FileSystem.AccessControl.dll",
+        "size": 96040,
+        "executable": false,
+        "sha256": "086233a7f2644c6eccd49093edfbbd594734353eaf74f31b4205521bc0f9a7d9"
+      },
+      {
+        "path": "System.IO.FileSystem.DriveInfo.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.FileSystem.DriveInfo.dll",
+        "size": 51024,
+        "executable": false,
+        "sha256": "253399b563fe8c87d732e8b55dcf95da44d7ebfde8f532fc2821e006826b00a9"
+      },
+      {
+        "path": "System.IO.FileSystem.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.FileSystem.Primitives.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "3425bcab2f1947de1dd2f2577adf024ac4c595ff42e3a3dad0131d6de453e1ef"
+      },
+      {
+        "path": "System.IO.FileSystem.Watcher.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.FileSystem.Watcher.dll",
+        "size": 79656,
+        "executable": false,
+        "sha256": "98c0d06a0096f4e2e9ec75768853ca4ae50380c9246b091c13b346389bb605ce"
+      },
+      {
+        "path": "System.IO.FileSystem.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.FileSystem.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "0aac634e624e0f72e3abdd22f12a198eea7fd72630d56263ae232f5aab84874c"
+      },
+      {
+        "path": "System.IO.Hashing.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Hashing.dll",
+        "size": 56584,
+        "executable": false,
+        "sha256": "2679a6164163c1f4b7b5fada83a55eb48b0a85840e04f00e8921b8d495a66b84"
+      },
+      {
+        "path": "System.IO.IsolatedStorage.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.IsolatedStorage.dll",
+        "size": 83752,
+        "executable": false,
+        "sha256": "10911f116ddd2121cdacce5fd3ce14d19fe70ef829ace346f3506e63e14e3693"
+      },
+      {
+        "path": "System.IO.MemoryMappedFiles.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.MemoryMappedFiles.dll",
+        "size": 75600,
+        "executable": false,
+        "sha256": "b53a8a927ef740708c20abb8030027821665131ac6c4f9d5c399c04d3ba0c4cd"
+      },
+      {
+        "path": "System.IO.Packaging.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Packaging.dll",
+        "size": 159016,
+        "executable": false,
+        "sha256": "d3a59e74710847aef4083e643610d4c60ab6f6151d8b2be0081b986d5e071318"
+      },
+      {
+        "path": "System.IO.Pipelines.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Pipelines.dll",
+        "size": 182056,
+        "executable": false,
+        "sha256": "d87ad0e9c80097de4e3fd2e023072e8d4f42addf2fb0fe3a1fe37c2aedf78d49"
+      },
+      {
+        "path": "System.IO.Pipes.AccessControl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Pipes.AccessControl.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "91f9aab423816ebcf73235defee5fd18f236ebbf7d9676cee6d3b15f74a067a3"
+      },
+      {
+        "path": "System.IO.Pipes.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Pipes.dll",
+        "size": 157480,
+        "executable": false,
+        "sha256": "56da0ec9eeda3d0f2ff5d193a3cb6a1040389773c726263cc0aba551e802acaf"
+      },
+      {
+        "path": "System.IO.Ports.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.Ports.dll",
+        "size": 88872,
+        "executable": false,
+        "sha256": "33082e8892a0b105cb0011341a4faf1e6d21ab501926465b2eb86f340133151b"
+      },
+      {
+        "path": "System.IO.UnmanagedMemoryStream.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.UnmanagedMemoryStream.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "e3c06421d63d1493383c3cd5e56276decfc98ad6600e71e4371bd9365b90ca65"
+      },
+      {
+        "path": "System.IO.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.IO.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "75254b96b2bf324373655ac61f8160a17c6b64256117a29a5e6a9051dbb73c7e"
+      },
+      {
+        "path": "System.Linq.AsyncEnumerable.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Linq.AsyncEnumerable.dll",
+        "size": 1242920,
+        "executable": false,
+        "sha256": "ada43f30f7c53cc6ce27cacf8e48286229477bc036e8a412225985fdafdbbeed"
+      },
+      {
+        "path": "System.Linq.Expressions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Linq.Expressions.dll",
+        "size": 3372840,
+        "executable": false,
+        "sha256": "33ae65e52e540c9bec927faf0f0a5da1040db7b17561f827618d349f0e15db3c"
+      },
+      {
+        "path": "System.Linq.Parallel.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Linq.Parallel.dll",
+        "size": 730920,
+        "executable": false,
+        "sha256": "9e9bbde74b237ea40c5c3f562bc62f66f3e7d4e150f722e0a130da7be869e848"
+      },
+      {
+        "path": "System.Linq.Queryable.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Linq.Queryable.dll",
+        "size": 177960,
+        "executable": false,
+        "sha256": "261e18e81789ce4715a5ea34bfae1723f94c4649e34e9bd2e7386f5338ecb63f"
+      },
+      {
+        "path": "System.Linq.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Linq.dll",
+        "size": 644944,
+        "executable": false,
+        "sha256": "ec0314908d6827ab36403af0604e20b605aab8d9076c05da4eb4857eb57da6ef"
+      },
+      {
+        "path": "System.Management.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Management.dll",
+        "size": 314152,
+        "executable": false,
+        "sha256": "6a266b7a856baced0e757caf7c2e71649999f1321e7e6ff5df5bdee477d32a2e"
+      },
+      {
+        "path": "System.Memory.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Memory.dll",
+        "size": 157480,
+        "executable": false,
+        "sha256": "973516af03f5c4d8dc3ab6dc719ac17b1d95336b88fb367af6037e68d36ec570"
+      },
+      {
+        "path": "System.Net.Http.Json.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Http.Json.dll",
+        "size": 116560,
+        "executable": false,
+        "sha256": "461a1f1ba9acd2f12deb5f2539a94e6357ef46d36a8c0a550b7a1b39db49df12"
+      },
+      {
+        "path": "System.Net.Http.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Http.dll",
+        "size": 1652520,
+        "executable": false,
+        "sha256": "9c1ed55456da3b6c15b9ec0bdf53d912679250241a165380b067948a3765ca6a"
+      },
+      {
+        "path": "System.Net.HttpListener.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.HttpListener.dll",
+        "size": 505680,
+        "executable": false,
+        "sha256": "e08e7efe6a4856de57a49287e338bc53ba646b81d644976bf22b1b1cef16c72a"
+      },
+      {
+        "path": "System.Net.Mail.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Mail.dll",
+        "size": 452392,
+        "executable": false,
+        "sha256": "40ff0d384003b7cf43e3b41239102ad456370ce828f0507b180ad194624e4eb0"
+      },
+      {
+        "path": "System.Net.NameResolution.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.NameResolution.dll",
+        "size": 112464,
+        "executable": false,
+        "sha256": "97bba76936cd8071cf98bd1578565b2c595a0559c3f9fe985ae4c1742f306b0e"
+      },
+      {
+        "path": "System.Net.NetworkInformation.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.NetworkInformation.dll",
+        "size": 145192,
+        "executable": false,
+        "sha256": "e943fa162521edf21ec14eca86548d50740570b3c46af08d8054be2e07bb2c2d"
+      },
+      {
+        "path": "System.Net.Ping.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Ping.dll",
+        "size": 87888,
+        "executable": false,
+        "sha256": "f76b17340f793fd769e469398e0ec9ef9dd75af38df70cdfb2594ea6d7515822"
+      },
+      {
+        "path": "System.Net.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Primitives.dll",
+        "size": 202576,
+        "executable": false,
+        "sha256": "7c7aa2695472c11831911da9dd491cc084065dd1a8544c43e4a4f1fbdc202281"
+      },
+      {
+        "path": "System.Net.Quic.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Quic.dll",
+        "size": 337704,
+        "executable": false,
+        "sha256": "ff8b4de1746a80e27921f073c3d3debe8697e95a12da458f3ca2036b1b53b6c5"
+      },
+      {
+        "path": "System.Net.Requests.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Requests.dll",
+        "size": 354088,
+        "executable": false,
+        "sha256": "eb4593a40d63f2b5cbf3b080e76030c44ff28e87d651cbdfbe4b9500ddd700bb"
+      },
+      {
+        "path": "System.Net.Security.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Security.dll",
+        "size": 632616,
+        "executable": false,
+        "sha256": "c692b8746a68de801920ec871670e7172810242a47c8b70dee8e79e8a529d7a7"
+      },
+      {
+        "path": "System.Net.ServerSentEvents.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.ServerSentEvents.dll",
+        "size": 79696,
+        "executable": false,
+        "sha256": "5573756e99ccda09f5d859af1234d6a936e1da349e796b853f3bfdc8598a1534"
+      },
+      {
+        "path": "System.Net.ServicePoint.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.ServicePoint.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "bb3c8e40eeb345e7ed492ea1ff0219bb5d9f5b260cd58f4c4119431d92e5a3a8"
+      },
+      {
+        "path": "System.Net.Sockets.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.Sockets.dll",
+        "size": 493352,
+        "executable": false,
+        "sha256": "4bc94d72e0df6df725bc4a26c86349895d4d0ee9aa56e278604871b87d871dc8"
+      },
+      {
+        "path": "System.Net.WebClient.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.WebClient.dll",
+        "size": 157480,
+        "executable": false,
+        "sha256": "a144ee1a38740d480d7c65eeece5ee4ef3439472d9a658ca87ad46e406b3e347"
+      },
+      {
+        "path": "System.Net.WebHeaderCollection.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.WebHeaderCollection.dll",
+        "size": 59176,
+        "executable": false,
+        "sha256": "1b268add2692cc8a9eea749ee3d28ecbe4b386ef84cb9f33fa42d5d74ebfb745"
+      },
+      {
+        "path": "System.Net.WebProxy.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.WebProxy.dll",
+        "size": 42792,
+        "executable": false,
+        "sha256": "9ed97b76fb13918eb666e4abf8a6ca91531ad26ab627bd7023673c1ba6050caf"
+      },
+      {
+        "path": "System.Net.WebSockets.Client.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.WebSockets.Client.dll",
+        "size": 91984,
+        "executable": false,
+        "sha256": "d1f9ff21ac49e9b800decca2b25b43aff9b70472fc17dffb54c9c972c422d7fc"
+      },
+      {
+        "path": "System.Net.WebSockets.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.WebSockets.dll",
+        "size": 231208,
+        "executable": false,
+        "sha256": "b1abcce9a7acfb1be89a64b2887e37fdcb7f638a4c10336882e91340bba1e2f3"
+      },
+      {
+        "path": "System.Net.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Net.dll",
+        "size": 17192,
+        "executable": false,
+        "sha256": "5eb06740b30b22b647a60774d158959e30ad38a6cd5dc6ecf226813d9b1e6152"
+      },
+      {
+        "path": "System.Numerics.Vectors.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Numerics.Vectors.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "5370e5113eb933daf8f2281aaa32be655b9be9f28d100b34f02cadb0ecfe69e3"
+      },
+      {
+        "path": "System.Numerics.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Numerics.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "58e3fe25cfb46c3f020252c62db44a952a916eece9851ada9b7ee1636ea25593"
+      },
+      {
+        "path": "System.ObjectModel.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ObjectModel.dll",
+        "size": 71504,
+        "executable": false,
+        "sha256": "91f6390c49cfd1c58d09fa3b6a948733d3b2f7edb0e84bede5e1909b25d334a4"
+      },
+      {
+        "path": "System.Private.CoreLib.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.CoreLib.dll",
+        "size": 15599440,
+        "executable": false,
+        "sha256": "e0457d3ebff7ad8f87534d0163786c66f623b7118f2e82f22fa0e8b6d8f61a28"
+      },
+      {
+        "path": "System.Private.DataContractSerialization.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.DataContractSerialization.dll",
+        "size": 1939240,
+        "executable": false,
+        "sha256": "13eaec707e62bcc4a1fafd737aa098586c367a22624a36269e73aa28765aba63"
+      },
+      {
+        "path": "System.Private.Uri.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.Uri.dll",
+        "size": 247592,
+        "executable": false,
+        "sha256": "73a226122b02ef001e9da3b076963f083eefc7ed8523ce5218d3dcc8f7f7de4e"
+      },
+      {
+        "path": "System.Private.Windows.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.Windows.Core.dll",
+        "size": 1226024,
+        "executable": false,
+        "sha256": "1ff9a6436dafbb4418c9e147f8203fd2207601ee5bb71c384675a8c1ac4ff822"
+      },
+      {
+        "path": "System.Private.Windows.GdiPlus.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.Windows.GdiPlus.dll",
+        "size": 168784,
+        "executable": false,
+        "sha256": "e46a1a693188c0c25a5d96dce5330433be693f86351df77b20e7f6118f5df5eb"
+      },
+      {
+        "path": "System.Private.Xml.Linq.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.Xml.Linq.dll",
+        "size": 366376,
+        "executable": false,
+        "sha256": "b029c82601b0c52ad07570b1b1bcb56bf08bd5a7306772bcab19ee71899ac577"
+      },
+      {
+        "path": "System.Private.Xml.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Private.Xml.dll",
+        "size": 7386960,
+        "executable": false,
+        "sha256": "2f29f931237e1b6214d3d868e4a905fc430d813c51549a2c8ccec790c72aa3e2"
+      },
+      {
+        "path": "System.Reflection.Context.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Context.dll",
+        "size": 83792,
+        "executable": false,
+        "sha256": "b0a2dc5244df3ac2a46dae893f9e421c144d7e346a2dd09eda883a530a1d9c54"
+      },
+      {
+        "path": "System.Reflection.DispatchProxy.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.DispatchProxy.dll",
+        "size": 71464,
+        "executable": false,
+        "sha256": "1c9fb76c4549f71c5e6d8aad893850cd9e66fa490ccf6ff37896d67f5583ba9c"
+      },
+      {
+        "path": "System.Reflection.Emit.ILGeneration.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Emit.ILGeneration.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "268d2bdc338f9b55f48586bd34df5eef2330194a8af4bf312ec70448977b6733"
+      },
+      {
+        "path": "System.Reflection.Emit.Lightweight.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Emit.Lightweight.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "b1a558c6c060c09fce3023b76bd964accacd63fa391cc1ceb7f5e7437a38f9ce"
+      },
+      {
+        "path": "System.Reflection.Emit.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Emit.dll",
+        "size": 292688,
+        "executable": false,
+        "sha256": "7d536e81b4009f75afdd6e234ee4361f952cd7089e8081c78b99ee8ee89e8e04"
+      },
+      {
+        "path": "System.Reflection.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Extensions.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "1285e27afacdf2e716b7440b2592f8c761872d6a6fc432372252085de78ef1c0"
+      },
+      {
+        "path": "System.Reflection.Metadata.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Metadata.dll",
+        "size": 1120080,
+        "executable": false,
+        "sha256": "0a8682262456a17c4f8007458e0cdfa3870148cb1a65216acffb16551bef79ae"
+      },
+      {
+        "path": "System.Reflection.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.Primitives.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "4105cb1c536715590aa1a29bb9346aecdb18574fccb0c33e84d86559efce74db"
+      },
+      {
+        "path": "System.Reflection.TypeExtensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.TypeExtensions.dll",
+        "size": 42832,
+        "executable": false,
+        "sha256": "b93de180f9e8aabcf9bee7f210a4c8f5c035addc5b1b30513fa4621a14151b86"
+      },
+      {
+        "path": "System.Reflection.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Reflection.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "2a1d17da2f6cce6579d77d8618cc5eb5fd84719119923aad3ec4360c42050b86"
+      },
+      {
+        "path": "System.Resources.Reader.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Resources.Reader.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "d6fa4beea64acf7eb57dd754506fd1f75fde5797227dae9a3c46d9f097f78b94"
+      },
+      {
+        "path": "System.Resources.ResourceManager.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Resources.ResourceManager.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "5b09de43c470ee256213441170f80167db2c02cf49102af9ddd005acdf5d88f5"
+      },
+      {
+        "path": "System.Resources.Writer.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Resources.Writer.dll",
+        "size": 50984,
+        "executable": false,
+        "sha256": "1b2fd33b08af3a25edfb02fda32c49528c72f2e3997e37a63315a17bbbb80e75"
+      },
+      {
+        "path": "System.Runtime.Caching.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Caching.dll",
+        "size": 92968,
+        "executable": false,
+        "sha256": "161527b5a682adf38e6228b90692cb5e245e0599486273b498b4e1883e00b8eb"
+      },
+      {
+        "path": "System.Runtime.CompilerServices.Unsafe.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.CompilerServices.Unsafe.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "66cf0b1ac80492794e84707bc9b971fd8b5a710a744ea9d0ae682657bc5f5ee8"
+      },
+      {
+        "path": "System.Runtime.CompilerServices.VisualC.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.CompilerServices.VisualC.dll",
+        "size": 30504,
+        "executable": false,
+        "sha256": "d64b1268c95f2a389b365651fb17e677c7204b3c46c292c24fa3bfe8e15bc906"
+      },
+      {
+        "path": "System.Runtime.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Extensions.dll",
+        "size": 17704,
+        "executable": false,
+        "sha256": "75c74cc7172b95d88479cff4a0792e2ad18fe4fdd801dbd8901877e87ad1cd52"
+      },
+      {
+        "path": "System.Runtime.Handles.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Handles.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "70de5ea990d77aab44bd33ae1a06d62c1a6311f139e90ae89f4b5812284f6a2c"
+      },
+      {
+        "path": "System.Runtime.InteropServices.JavaScript.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.InteropServices.JavaScript.dll",
+        "size": 51024,
+        "executable": false,
+        "sha256": "5bb4195ff30292d25358b78b2a5801fcba2111a82d1e080adce9960ff713a9f9"
+      },
+      {
+        "path": "System.Runtime.InteropServices.RuntimeInformation.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "size": 15184,
+        "executable": false,
+        "sha256": "406b299945ff122b188d65916ffcb9c9d1b66f2952cd1235adb530c9221bc853"
+      },
+      {
+        "path": "System.Runtime.InteropServices.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.InteropServices.dll",
+        "size": 108368,
+        "executable": false,
+        "sha256": "481ca3899ab895dc3c2c72b5947aee219291843b9bd59506fe1131d6bbb9b29a"
+      },
+      {
+        "path": "System.Runtime.Intrinsics.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Intrinsics.dll",
+        "size": 17232,
+        "executable": false,
+        "sha256": "592e9036d0a87a6978f8e681cbba227007ce94d5d603289be1d5f18a6a3638e0"
+      },
+      {
+        "path": "System.Runtime.Loader.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Loader.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "30c2d4a1effcd63bb6623f1cf3f73d2207be33ea340cbad567d4c279a42d7493"
+      },
+      {
+        "path": "System.Runtime.Numerics.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Numerics.dll",
+        "size": 349992,
+        "executable": false,
+        "sha256": "74a238915c8a8ea33ba1e47c1b4f19a2ffb44d40fe18cf8455d45e9fdac9d1b8"
+      },
+      {
+        "path": "System.Runtime.Serialization.Formatters.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Serialization.Formatters.dll",
+        "size": 120616,
+        "executable": false,
+        "sha256": "9113cfa72397dba45e707f769b3353ad09d6864586257ecf67f0f37a375283b3"
+      },
+      {
+        "path": "System.Runtime.Serialization.Json.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Serialization.Json.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "884c608e2897aec30ee7d7a24c14decf852cb49dce49768c12924e79834a6942"
+      },
+      {
+        "path": "System.Runtime.Serialization.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Serialization.Primitives.dll",
+        "size": 38696,
+        "executable": false,
+        "sha256": "04010c764d96cde89589f5a58d20014c7e4f0ab76ae52738369599e7753eff4e"
+      },
+      {
+        "path": "System.Runtime.Serialization.Xml.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Serialization.Xml.dll",
+        "size": 16680,
+        "executable": false,
+        "sha256": "722c97c9c90cd83838dcaeb9828fd237ca3154903b033f38d07c0c2773580f74"
+      },
+      {
+        "path": "System.Runtime.Serialization.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.Serialization.dll",
+        "size": 17192,
+        "executable": false,
+        "sha256": "d20eaeb9e0a0a700e52d2e9ce2fdfa8a8f36f0d00ad1bcc275b30c209b6b6fb1"
+      },
+      {
+        "path": "System.Runtime.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Runtime.dll",
+        "size": 44840,
+        "executable": false,
+        "sha256": "d1c6be271888201f767787867765bfd363dccdb96b413cb0e194432e05c40ab1"
+      },
+      {
+        "path": "System.Security.AccessControl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.AccessControl.dll",
+        "size": 210728,
+        "executable": false,
+        "sha256": "fc6a229b139c5b7fc0853bb7c5a44dd1bcd4ad8115abe9baa03bdc73f2a9b83b"
+      },
+      {
+        "path": "System.Security.Claims.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Claims.dll",
+        "size": 96040,
+        "executable": false,
+        "sha256": "7e977e5887aeda02f081093de6ebd0ed5769aeca55b2232f446b04a73e9a1c77"
+      },
+      {
+        "path": "System.Security.Cryptography.Algorithms.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Algorithms.dll",
+        "size": 17192,
+        "executable": false,
+        "sha256": "dcef4b1eff2c6281ed805f33f5c0f67f66cc73c17edf5694adca7dad7cdc412a"
+      },
+      {
+        "path": "System.Security.Cryptography.Cng.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Cng.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "a6dec9ab7b6f94095ecc42060677e1ca4ed1fed7e47c076e8a746c35c74f30d4"
+      },
+      {
+        "path": "System.Security.Cryptography.Csp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Csp.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "0177d991a72bf1ad1385c628a33bff3be97b637c8deb7030181b354b76633f86"
+      },
+      {
+        "path": "System.Security.Cryptography.Encoding.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Encoding.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "951b2ed3d4faf51210827925a0ffa40a08a616ea6f2ad46b4b8ed04888804e65"
+      },
+      {
+        "path": "System.Security.Cryptography.OpenSsl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.OpenSsl.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "485a0ad638b69299c751ae82bbe0fde25e8a84c64e99f319c98d72ac09c3af86"
+      },
+      {
+        "path": "System.Security.Cryptography.Pkcs.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Pkcs.dll",
+        "size": 341328,
+        "executable": false,
+        "sha256": "5ae97da57d52a5aca135634e9617e7035934bf961734e14427b08c72c0478d49"
+      },
+      {
+        "path": "System.Security.Cryptography.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Primitives.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "94dffc9f603b65dc1efbd829779a35abff0a8bd5dbcefd7fac0ddd9b30ca9747"
+      },
+      {
+        "path": "System.Security.Cryptography.ProtectedData.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.ProtectedData.dll",
+        "size": 39760,
+        "executable": false,
+        "sha256": "01c53ac1be32845ca19e475171e11d02d0c30031fc502d29a2334bfbbae9af74"
+      },
+      {
+        "path": "System.Security.Cryptography.X509Certificates.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.X509Certificates.dll",
+        "size": 16720,
+        "executable": false,
+        "sha256": "100377af607964755dfa83873f3af99110d6806fa29a802d25bbdeda405e9ad4"
+      },
+      {
+        "path": "System.Security.Cryptography.Xml.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.Xml.dll",
+        "size": 205136,
+        "executable": false,
+        "sha256": "b3c248a364d535516cd84c111edd838604b94c44214016872fd5c0edb5c65c8a"
+      },
+      {
+        "path": "System.Security.Cryptography.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Cryptography.dll",
+        "size": 2357032,
+        "executable": false,
+        "sha256": "de3c1331628d08f69111899acb05b1ab33c411eeea8ff220bd3f9a15664957eb"
+      },
+      {
+        "path": "System.Security.Permissions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Permissions.dll",
+        "size": 118056,
+        "executable": false,
+        "sha256": "4362da9b2c90a88294352cf378857a50ed3dcc0228e90b31b043619c3a3e665f"
+      },
+      {
+        "path": "System.Security.Principal.Windows.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Principal.Windows.dll",
+        "size": 165672,
+        "executable": false,
+        "sha256": "c6e9e1967abfefa8ace86dcf82b9c0e7575f52307ec7f89d09f78a505e238892"
+      },
+      {
+        "path": "System.Security.Principal.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.Principal.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "c87d763f5a738f98937359ecf08fe2bd98995779b5640198620123d768518312"
+      },
+      {
+        "path": "System.Security.SecureString.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.SecureString.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "074be0a7794e1738812d38a1e21d21f0c3aedfd59bf01750613443e1683bcbc1"
+      },
+      {
+        "path": "System.Security.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Security.dll",
+        "size": 18216,
+        "executable": false,
+        "sha256": "54b6afe57b33b01b2ede291faf6e857c4d7417213c0243df0b263e6e36ce27b6"
+      },
+      {
+        "path": "System.ServiceModel.Duplex.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Duplex.dll",
+        "size": 15424,
+        "executable": false,
+        "sha256": "8cde3443ef4d0360d7d392a353d91b1270ded64345e3ccf611e152d4b25a9978"
+      },
+      {
+        "path": "System.ServiceModel.Http.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Http.dll",
+        "size": 203832,
+        "executable": false,
+        "sha256": "0fa24d7da9b0189622ea983590d488b5e8473dac7eab76b34ab2268e4bed8f32"
+      },
+      {
+        "path": "System.ServiceModel.NetFramingBase.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.NetFramingBase.dll",
+        "size": 198200,
+        "executable": false,
+        "sha256": "9a7061b5102a252f6883cee596ce97b3dec4f7104287e88ee03712070fcfcc92"
+      },
+      {
+        "path": "System.ServiceModel.NetTcp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.NetTcp.dll",
+        "size": 63032,
+        "executable": false,
+        "sha256": "3ef2c1ddc987d3050238bc6660f463be97f4f73a41d7e1d6990c1dcb81aa7918"
+      },
+      {
+        "path": "System.ServiceModel.Primitives.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Primitives.dll",
+        "size": 2389576,
+        "executable": false,
+        "sha256": "21804e970c13be46fd3977287f0e6e97e54d939a73dd3a2f8a1e099677f23b24"
+      },
+      {
+        "path": "System.ServiceModel.Security.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Security.dll",
+        "size": 16968,
+        "executable": false,
+        "sha256": "0d1336b177798ac63c13e0b22acd40cb16199bb255eddf7c1c1dea12660a85f1"
+      },
+      {
+        "path": "System.ServiceModel.Syndication.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Syndication.dll",
+        "size": 121640,
+        "executable": false,
+        "sha256": "9c12454fd3459353d0417010fa036294276a69d8062c481a5da76c03cd7e7cba"
+      },
+      {
+        "path": "System.ServiceModel.Web.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.Web.dll",
+        "size": 16680,
+        "executable": false,
+        "sha256": "7430f1eda697ad763692832f4f9289492d64ee6bbc065535d10fa95ee5357fe4"
+      },
+      {
+        "path": "System.ServiceModel.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceModel.dll",
+        "size": 25144,
+        "executable": false,
+        "sha256": "7b25feeecf406c6fd00fea3be98e5b0173506da4749b67010fd47ebdc5b05d4d"
+      },
+      {
+        "path": "System.ServiceProcess.ServiceController.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceProcess.ServiceController.dll",
+        "size": 91944,
+        "executable": false,
+        "sha256": "76d769f5a3c91c077ece4669c1f3db8ad5dad1bb87154f85e3e5533b8dc02595"
+      },
+      {
+        "path": "System.ServiceProcess.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ServiceProcess.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "0945eb6c79e51dd67f8219673a6afbeea55cd6dbc8f2bb38d999bb3d1d7a1f7a"
+      },
+      {
+        "path": "System.Speech.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Speech.dll",
+        "size": 686928,
+        "executable": false,
+        "sha256": "9283e64fb574851f7b3517d364ccafab629ba2e4723abb7fc6441a3edb131539"
+      },
+      {
+        "path": "System.Text.Encoding.CodePages.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.Encoding.CodePages.dll",
+        "size": 857896,
+        "executable": false,
+        "sha256": "de6bb755d315b1c60f50516968dde006f1f299812eef0ca492aa4d345498cc0c"
+      },
+      {
+        "path": "System.Text.Encoding.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.Encoding.Extensions.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "e93882d7ddc4649e5a4a1aa7916a5425527a4c059ea4f32ebc58d54c0d582288"
+      },
+      {
+        "path": "System.Text.Encoding.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.Encoding.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "0e5bb42d29683c20f7df0a914b5440f0214522cee65af6efa7d13cf6c85ba0b4"
+      },
+      {
+        "path": "System.Text.Encodings.Web.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.Encodings.Web.dll",
+        "size": 120616,
+        "executable": false,
+        "sha256": "fe1400f4bf608a728097fa25d36d66ee795969f77b93ad5ae0bda7ea83e30bc5"
+      },
+      {
+        "path": "System.Text.Json.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.Json.dll",
+        "size": 1787688,
+        "executable": false,
+        "sha256": "ffc58ac4063f7715ab3835bc19f53bf65c2ac4c33e3a592fe366767f5203e8b8"
+      },
+      {
+        "path": "System.Text.RegularExpressions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Text.RegularExpressions.dll",
+        "size": 984912,
+        "executable": false,
+        "sha256": "2456ad2635e90e07a68fbc5e97a86dc979f553d9f2649cc3f0dd3d2ac42cef2f"
+      },
+      {
+        "path": "System.Threading.AccessControl.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.AccessControl.dll",
+        "size": 71504,
+        "executable": false,
+        "sha256": "204028ddf3438246172d542ab3ebe325bd235d1f9ebed0ffa435489f36ace801"
+      },
+      {
+        "path": "System.Threading.Channels.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Channels.dll",
+        "size": 149288,
+        "executable": false,
+        "sha256": "f1f13d26ddeaf94b3bd1e0c0bbf248f11fe5af743b9b0165e98ad69e5c212c17"
+      },
+      {
+        "path": "System.Threading.Overlapped.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Overlapped.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "d51bf708762c326776b2e242d601a232d91c4090e6edbf3c544caf163e209b95"
+      },
+      {
+        "path": "System.Threading.Tasks.Dataflow.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Tasks.Dataflow.dll",
+        "size": 444200,
+        "executable": false,
+        "sha256": "1dd8b91d0763bf793da8400c19154e30e2f2e4df705ae9e69ff2c9ddf685f9e7"
+      },
+      {
+        "path": "System.Threading.Tasks.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Tasks.Extensions.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "9f331cb335d99a675ba0f0530dc592a84e759449ae9f7c6a7055d526bc84e0a5"
+      },
+      {
+        "path": "System.Threading.Tasks.Parallel.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Tasks.Parallel.dll",
+        "size": 120616,
+        "executable": false,
+        "sha256": "82b126ebfd2190919b9b2925c390165a9d2b393fe7b9c0f78d7fc1017ed52581"
+      },
+      {
+        "path": "System.Threading.Tasks.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Tasks.dll",
+        "size": 16680,
+        "executable": false,
+        "sha256": "9f8a8da8ff8a9ec965fcd20e6dcc9909f72705387a32c6e88afaba9950b9846e"
+      },
+      {
+        "path": "System.Threading.Thread.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Thread.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "ce42bdd6416a920e3594378ba4cc8d6f762581c76e070e604a8c9e7c82ef2127"
+      },
+      {
+        "path": "System.Threading.ThreadPool.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.ThreadPool.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "366ceb5ae863f6ae8a7e5135c2221172c0f211c7b5188a9530b8a5e28138716b"
+      },
+      {
+        "path": "System.Threading.Timer.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.Timer.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "72c5f6b9e4ebec14690aa62c13a3c5fb70506980c047ba787106769b8c91aa60"
+      },
+      {
+        "path": "System.Threading.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Threading.dll",
+        "size": 79656,
+        "executable": false,
+        "sha256": "15889518267ea997d59db1fa144f1c92696c8b05fefed1ad082261f13d266190"
+      },
+      {
+        "path": "System.Transactions.Local.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Transactions.Local.dll",
+        "size": 608040,
+        "executable": false,
+        "sha256": "241677651b2d70edf1c88de517ebadc7b535e4606fa408bd1cb62f211a5c3d35"
+      },
+      {
+        "path": "System.Transactions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Transactions.dll",
+        "size": 16720,
+        "executable": false,
+        "sha256": "df8f55db0d3368f4996ada3b5151d3639a82b344df754455258aa04d021d9680"
+      },
+      {
+        "path": "System.ValueTuple.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.ValueTuple.dll",
+        "size": 15696,
+        "executable": false,
+        "sha256": "d1f6104cc23c5e57d44b27aa78105fcdd150ab2317ca7ccb200ac2258c8b39da"
+      },
+      {
+        "path": "System.Web.HttpUtility.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Web.HttpUtility.dll",
+        "size": 63312,
+        "executable": false,
+        "sha256": "b30b0cdeb21555776fdd4d7137b5ccf8b5d63255911dab73e67f5abfc2ecf7c1"
+      },
+      {
+        "path": "System.Web.Services.Description.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Web.Services.Description.dll",
+        "size": 385080,
+        "executable": false,
+        "sha256": "2243b61900d3b7b30ab6751970aadf04d490507ad0d74dbec05db5f86de0cbfc"
+      },
+      {
+        "path": "System.Web.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Web.dll",
+        "size": 15144,
+        "executable": false,
+        "sha256": "413fdc792541a18f57101e493afbc9144c767a342824ba3e604b6171719d6277"
+      },
+      {
+        "path": "System.Windows.Extensions.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Windows.Extensions.dll",
+        "size": 76072,
+        "executable": false,
+        "sha256": "60bd4fc789088f579e844440e8a28caf21697ed5b5985c33937204377b91cd1f"
+      },
+      {
+        "path": "System.Windows.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Windows.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "3aafa3da88980aced28e1234fddd9f2270bcd897f5bc7a6f67da2562cc5098d3"
+      },
+      {
+        "path": "System.Xml.Linq.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.Linq.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "d1a1a46bbf5db9ad5b3ff3e4837e210b22df7fbf028ab13b45cbb27e3635b10c"
+      },
+      {
+        "path": "System.Xml.ReaderWriter.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.ReaderWriter.dll",
+        "size": 21800,
+        "executable": false,
+        "sha256": "a91443cb4fccc6242b45eee7d0ccad058d53c5c92edb6505ce034f7ac1b02750"
+      },
+      {
+        "path": "System.Xml.Serialization.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.Serialization.dll",
+        "size": 16208,
+        "executable": false,
+        "sha256": "c5d45061468dda2cd85b5bc17fce45617113d8fa490bb4728f1a833b7836579c"
+      },
+      {
+        "path": "System.Xml.XDocument.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.XDocument.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "071203803d53ae420fa6b8752db19a3422a150d0fba7483d98833a632f522761"
+      },
+      {
+        "path": "System.Xml.XPath.XDocument.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.XPath.XDocument.dll",
+        "size": 30504,
+        "executable": false,
+        "sha256": "81ae3fe6d362c8e1d7bbe31a154fe9d5509201125623b98541623d8d8b6c80c3"
+      },
+      {
+        "path": "System.Xml.XPath.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.XPath.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "40a3ff2ec5f010c5bc5f770fa1dd88fc4076eb6c7c5c37ff7ba091e2cd4cf32b"
+      },
+      {
+        "path": "System.Xml.XmlDocument.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.XmlDocument.dll",
+        "size": 15656,
+        "executable": false,
+        "sha256": "55e55271a25104a9c8f7a98f84e3e0e6c4c2c18d38d66ff1024b555c24327d8e"
+      },
+      {
+        "path": "System.Xml.XmlSerializer.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.XmlSerializer.dll",
+        "size": 17704,
+        "executable": false,
+        "sha256": "35c1a1084bb26bb5c6beaef7a49e68e4d0c313478da35a78e052341c8e321ade"
+      },
+      {
+        "path": "System.Xml.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.Xml.dll",
+        "size": 23376,
+        "executable": false,
+        "sha256": "af7840d04094b8ed9c176a05e6184ed58388a15fbd563566714a893e77eebd19"
+      },
+      {
+        "path": "System.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/System.dll",
+        "size": 50472,
+        "executable": false,
+        "sha256": "4df79c6f30fce67f52e5331c64a6e2133603b0439c2e866eeabb6d43ea9d7aa9"
+      },
+      {
+        "path": "ValveKeyValue.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/ValveKeyValue.dll",
+        "size": 125440,
+        "executable": false,
+        "sha256": "f4e08321402b6434ea09f83a29fe340606e445acc83cecf3b060ddf76a3d3476"
+      },
+      {
+        "path": "WindowsBase.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/WindowsBase.dll",
+        "size": 16168,
+        "executable": false,
+        "sha256": "b2c5db29829eeae02641f3ff2022b6cdba3ce4d4bd6223a20c526032920dbcad"
+      },
+      {
+        "path": "ZstdSharp.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/ZstdSharp.dll",
+        "size": 397312,
+        "executable": false,
+        "sha256": "177f541b9bba3cfe89d3fe9565ea9f78285ef8499d689dcfd5de0018b6fa43e5"
+      },
+      {
+        "path": "clretwrc.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/clretwrc.dll",
+        "size": 317736,
+        "executable": false,
+        "sha256": "4aadb8078977b0722189f7d004ef0fce4e37a22c06ed5f5da5acce2f52692f24"
+      },
+      {
+        "path": "clrgc.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/clrgc.dll",
+        "size": 442152,
+        "executable": false,
+        "sha256": "546b6abe31bf267b2d87c672b500e1c843c29dfc9f6e2f94aa93aedd5b853339"
+      },
+      {
+        "path": "clrjit.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/clrjit.dll",
+        "size": 1710376,
+        "executable": false,
+        "sha256": "088e6cee7fc3b00d9e7f1e90c27621aebae1e16a50ef9f9835f68cd4208bb5c4"
+      },
+      {
+        "path": "coreclr.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/coreclr.dll",
+        "size": 3785512,
+        "executable": false,
+        "sha256": "3cf1a8ec9bb7af9ecbeca5e296b08533c4096eae8e442de344ed93c0084533e1"
+      },
+      {
+        "path": "createdump.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/createdump.exe",
+        "size": 59224,
+        "executable": false,
+        "sha256": "08777868bea11eefe500d6fbcdf45d6c49be81f4160f2dcf300d9a23bde747b3"
+      },
+      {
+        "path": "e_sqlite3.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/e_sqlite3.dll",
+        "size": 1246720,
+        "executable": false,
+        "sha256": "a4d1e2c1d09e30484fe3597e650c66b594e0149f306d318dda012e01731dfda0"
+      },
+      {
+        "path": "hostfxr.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/hostfxr.dll",
+        "size": 312104,
+        "executable": false,
+        "sha256": "686eed3f8afa2e61983ad680c0e3abeb7758136b43cb1312b52e69c25dda486c"
+      },
+      {
+        "path": "hostpolicy.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/hostpolicy.dll",
+        "size": 315216,
+        "executable": false,
+        "sha256": "8117f096fbf4f963d60efa43babced0d2e140f7d0cf17a502df49d561e9c4618"
+      },
+      {
+        "path": "mscordaccore.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscordaccore.dll",
+        "size": 1233240,
+        "executable": false,
+        "sha256": "d26dd933b897e1edbaccab2132fa57dd00e6222a92ed38a43961ae93a073def2"
+      },
+      {
+        "path": "mscordaccore_x86_x86_10.0.526.15411.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscordaccore_x86_x86_10.0.526.15411.dll",
+        "size": 1233240,
+        "executable": false,
+        "sha256": "eda1c359237ff85dd46bf239f26b9800c70b90b49bd0163db4e12c297c0543fd"
+      },
+      {
+        "path": "mscordaccore_x86_x86_10.0.826.23019.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscordaccore_x86_x86_10.0.826.23019.dll",
+        "size": 1233240,
+        "executable": false,
+        "sha256": "d26dd933b897e1edbaccab2132fa57dd00e6222a92ed38a43961ae93a073def2"
+      },
+      {
+        "path": "mscordbi.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscordbi.dll",
+        "size": 1185624,
+        "executable": false,
+        "sha256": "d50022028432d65514b948e3dda5b390d4d3e8a87384ad4b10e7355d5ead4020"
+      },
+      {
+        "path": "mscorlib.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscorlib.dll",
+        "size": 59688,
+        "executable": false,
+        "sha256": "24378b944b60f73ba18503427ef2eb04ee15e6087b94cfeefae16f5e29bedbf7"
+      },
+      {
+        "path": "mscorrc.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/mscorrc.dll",
+        "size": 133968,
+        "executable": false,
+        "sha256": "444195a8959db8212699c676788189ddfacc0c37a329d63c40326275130f5567"
+      },
+      {
+        "path": "msquic.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/msquic.dll",
+        "size": 602696,
+        "executable": false,
+        "sha256": "0bef6707630341a4ed5214480c7d2875dad5f51c42539531c605eff3fc337b74"
+      },
+      {
+        "path": "netstandard.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/netstandard.dll",
+        "size": 100648,
+        "executable": false,
+        "sha256": "7f245d3728918e9ad3d8784a1971999352a62ab576778bc29f24c85faee71f79"
+      },
+      {
+        "path": "protobuf-net.Core.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/protobuf-net.Core.dll",
+        "size": 300032,
+        "executable": false,
+        "sha256": "18f2f6976f101c804d7c7314739fefce4dafa6d63ff4c3986e45d59967bd2777"
+      },
+      {
+        "path": "protobuf-net.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/protobuf-net.dll",
+        "size": 285184,
+        "executable": false,
+        "sha256": "78d95efd88bce208a2aa412f193ed534e4b6337f8c15ff9171b8696946200edf"
+      },
+      {
+        "path": "sni.dll",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/SteamAutoCrack/cli/sni.dll",
+        "size": 136488,
+        "executable": false,
+        "sha256": "1446d6b26da49a5a9f366972f89f4e236f916955f31ddc38ebb96217c1cace9c"
+      }
+    ]
+  },
+  {
+    "id": "coldclient-x64",
+    "version": "sff-fa44fc9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "LGPL-3.0",
+    "source": "https://github.com/Midrags/SFF/tree/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/",
+    "detection": {
+      "name": "Trojan:Win32/Kepavll!rfn",
+      "observed": "2026-10-17",
+      "message": "Windows Defender quarantined this original upstream executable on the development machine. Its safety has not been established. Do not disable protection or restore quarantine; submit a suspected false positive to Microsoft. Use Regular mode when it remains blocked."
+    },
+    "files": [
+      {
+        "path": "steamclient_loader_x64.exe",
+        "url": "https://raw.githubusercontent.com/Midrags/SFF/fa44fc96b609c4cbe553e7e1e6ffd946de55b76f/third_party/gbe_fork/steamclient_loader_x64.exe",
+        "git_blob": "2b46e3f15c2e106e3648e7724178a2f837cdaddf",
+        "size": 353704,
+        "executable": true,
+        "sha256": "2b6a295b391978d3ef4215b0e403462999bb8526392c67ed4d9eea6445520f82"
+      }
+    ]
+  },
+  {
+    "id": "lumacore",
+    "version": "V9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See LumaCore upstream license",
+    "source": "https://github.com/KoriaPolis/LumaCore",
+    "archive": {
+      "url": "https://github.com/KoriaPolis/LumaCore/releases/download/V9/Release.zip",
+      "sha256": "66033757fbffd3f2616a6a67b26b5bf31bce3def962ae25da27913e0e177e36f"
+    }
+  },
+  {
+    "id": "rclone-windows",
+    "version": "1.75.2",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/rclone/rclone",
+    "executables": [
+      "rclone.exe"
+    ],
+    "archive": {
+      "url": "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-amd64.zip",
+      "strip": "rclone-v1.75.2-windows-amd64",
+      "sha256": "8a9db2bad1dc79a65b3348fd857069598e2aab7cf4d118b77b1df23055aff818"
+    }
+  },
+  {
+    "id": "rclone-macos",
+    "version": "1.75.2",
+    "platforms": [
+      "macos-arm64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/rclone/rclone",
+    "executables": [
+      "rclone"
+    ],
+    "archive": {
+      "url": "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-arm64.zip",
+      "strip": "rclone-v1.75.2-osx-arm64",
+      "sha256": "610ab7d48615135dfc60b763858b11a426a0d3d1160c1bb76fb0ae6011b02edd"
+    }
+  },
+  {
+    "id": "dotnet-windows",
+    "version": "10.0.13",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/dotnet/runtime",
+    "executables": [
+      "dotnet.exe"
+    ],
+    "archive": {
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.13/dotnet-runtime-10.0.13-win-x64.zip",
+      "sha256": "8db74a746baa450925d01325a2108ccf6ac39af4018047475292ae155c013d89"
+    }
+  },
+  {
+    "id": "dotnet-macos",
+    "version": "10.0.13",
+    "platforms": [
+      "macos-arm64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/dotnet/runtime",
+    "executables": [
+      "dotnet"
+    ],
+    "archive": {
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.13/dotnet-runtime-10.0.13-osx-arm64.tar.gz",
+      "sha256": "fdf7ef21688338ad5d1d99d7eca7f3cf2e159c86e552d3f5acd0553b11c80ca6"
+    }
+  },
+  {
+    "id": "lumacore-debug",
+    "version": "V9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See LumaCore upstream license",
+    "source": "https://github.com/KoriaPolis/LumaCore",
+    "archive": {
+      "url": "https://github.com/KoriaPolis/LumaCore/releases/download/V9/Debug.zip",
+      "sha256": "6924a79e9629e4efabfb1db2a7fc8abb6a3962251c67b012cefb1e9481bf42c1"
+    }
+  }
+]

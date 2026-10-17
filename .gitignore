@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.swch-sdk/
+.upstream-sff/
+mod-sdk/
+.env*
+*.log
+.tools/
+.test-data/
+artifacts/
+sff-mod/

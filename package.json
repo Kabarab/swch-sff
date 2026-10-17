@@ -1,0 +1,26 @@
+{
+  "name": "swch-sff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node mod-sdk/cli.mjs check sff-mod",
+    "pack": "node mod-sdk/cli.mjs pack sff-mod dist/mod.zip",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "7z-wasm": "1.2.0",
+    "fflate": "0.8.2",
+    "steam-user": "5.3.0",
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

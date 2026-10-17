@@ -1,0 +1,94 @@
+[
+  {
+    "id": "lumacore",
+    "version": "V9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See LumaCore upstream license",
+    "source": "https://github.com/KoriaPolis/LumaCore",
+    "archive": {
+      "url": "https://github.com/KoriaPolis/LumaCore/releases/download/V9/Release.zip",
+      "sha256": "66033757fbffd3f2616a6a67b26b5bf31bce3def962ae25da27913e0e177e36f"
+    }
+  },
+  {
+    "id": "rclone-windows",
+    "version": "1.75.2",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/rclone/rclone",
+    "executables": [
+      "rclone.exe"
+    ],
+    "archive": {
+      "url": "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-amd64.zip",
+      "strip": "rclone-v1.75.2-windows-amd64",
+      "sha256": "8a9db2bad1dc79a65b3348fd857069598e2aab7cf4d118b77b1df23055aff818"
+    }
+  },
+  {
+    "id": "rclone-macos",
+    "version": "1.75.2",
+    "platforms": [
+      "macos-arm64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/rclone/rclone",
+    "executables": [
+      "rclone"
+    ],
+    "archive": {
+      "url": "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-arm64.zip",
+      "strip": "rclone-v1.75.2-osx-arm64",
+      "sha256": "610ab7d48615135dfc60b763858b11a426a0d3d1160c1bb76fb0ae6011b02edd"
+    }
+  },
+  {
+    "id": "dotnet-windows",
+    "version": "10.0.13",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/dotnet/runtime",
+    "executables": [
+      "dotnet.exe"
+    ],
+    "archive": {
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.13/dotnet-runtime-10.0.13-win-x64.zip",
+      "sha256": "8db74a746baa450925d01325a2108ccf6ac39af4018047475292ae155c013d89"
+    }
+  },
+  {
+    "id": "dotnet-macos",
+    "version": "10.0.13",
+    "platforms": [
+      "macos-arm64"
+    ],
+    "license": "MIT",
+    "source": "https://github.com/dotnet/runtime",
+    "executables": [
+      "dotnet"
+    ],
+    "archive": {
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.13/dotnet-runtime-10.0.13-osx-arm64.tar.gz",
+      "sha256": "fdf7ef21688338ad5d1d99d7eca7f3cf2e159c86e552d3f5acd0553b11c80ca6"
+    }
+  },
+  {
+    "id": "lumacore-debug",
+    "version": "V9",
+    "platforms": [
+      "windows-x64"
+    ],
+    "license": "See LumaCore upstream license",
+    "source": "https://github.com/KoriaPolis/LumaCore",
+    "archive": {
+      "url": "https://github.com/KoriaPolis/LumaCore/releases/download/V9/Debug.zip",
+      "sha256": "6924a79e9629e4efabfb1db2a7fc8abb6a3962251c67b012cefb1e9481bf42c1"
+    }
+  }
+]

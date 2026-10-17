@@ -1,0 +1,28 @@
+/* GPL-3.0-or-later. rclone's documented RC API stays on authenticated loopback. */
+import net from 'node:net';
+import {randomBytes,randomUUID} from 'node:crypto';
+import {fs,path,atomicWrite,exists,delay,relativePath} from './core.mjs';
+export class Rclone {
+  constructor(ctx){this.ctx=ctx;this.starting=null;this.url=null;this.process=null;this.controller=null;this.config=null;}
+  async start(){if(this.url)return;if(this.starting)return this.starting;this.starting=(async()=>{const id=this.ctx.platform==='windows-x64'?'rclone-windows':'rclone-macos';const executable=await this.ctx.tools.executable(id,this.ctx.platform==='windows-x64'?'rclone.exe':'rclone');const server=net.createServer();await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve);});const port=server.address().port;await new Promise(r=>server.close(r));
+    this.config=path.join(this.ctx.paths.temp,'rclone-session-'+randomUUID()+'.conf');await atomicWrite(this.config,await this.ctx.swch.secrets.get('rclone-config')||'',0o600);const user=randomBytes(16).toString('hex'),password=randomBytes(32).toString('hex');this.auth='Basic '+Buffer.from(user+':'+password).toString('base64');this.controller=new AbortController();let processError;
+    this.process=this.ctx.processes.run(executable,['rcd','--rc-addr','127.0.0.1:'+port,'--log-level','ERROR'],{signal:this.controller.signal,timeout:0,cwd:this.ctx.paths.data,env:{RCLONE_CONFIG:this.config,RCLONE_RC_USER:user,RCLONE_RC_PASS:password,RCLONE_CACHE_DIR:path.join(this.ctx.paths.cache,'rclone'),RCLONE_TEMP_DIR:this.ctx.paths.temp}}).catch(error=>{processError=error;if(this.url)this.ctx.log('rclone: '+error.message);});
+    const url='http://127.0.0.1:'+port+'/';for(let i=0;i<60;i++){if(processError)throw processError;try{const r=await this.ctx.net.request(url+'core/version',{method:'POST',headers:{Authorization:this.auth},timeout:500,retries:0});await r.body.cancel();this.url=url;return;}catch{await delay(200);}}
+    await this.close();throw new Error('rclone did not start its local API');})();try{return await this.starting;}finally{this.starting=null;}}
+  async call(method,body={}){await this.start();try{return await this.ctx.net.json(this.url+method,{method:'POST',headers:{Authorization:this.auth,'Content-Type':'application/json'},body:JSON.stringify(body),retries:0,timeout:300000});}catch(error){throw new Error('rclone '+method+': '+error.message);}}
+  async saveConfig(){if(this.config&&await exists(this.config))await this.ctx.swch.secrets.set('rclone-config',await fs.readFile(this.config,'utf8'));}
+  async providers(){return this.call('config/providers');}
+  async remotes(){return this.call('config/listremotes');}
+  async configure({name,type,parameters={},state,result}){if(!/^[a-zA-Z0-9][a-zA-Z0-9_. -]{0,79}$/.test(name||''))throw new Error('Remote name must contain letters, numbers, dots, spaces or hyphens');const body={name,parameters,opt:{nonInteractive:true,all:true,...(state?{continue:true,state,result:String(result??'')}:{})},...(type?{type}:{})};const data=await this.call(state?'config/update':'config/create',body);await this.saveConfig();return data;}
+  async delete({name}){const remotes=(await this.remotes()).remotes||[];if(!remotes.includes(name))throw new Error('Unknown rclone remote');const result=await this.call('config/delete',{name});await this.saveConfig();return result;}
+  async import({file}){await this.ctx.authorize(file);const text=await fs.readFile(file,'utf8');if(!/^\s*\[[^\]\r\n]+\]/m.test(text))throw new Error('Invalid rclone config');await this.close();await this.ctx.swch.secrets.set('rclone-config',text);return {imported:true};}
+  async remote(name,folder=''){const names=(await this.remotes()).remotes||[];if(!names.includes(name))throw new Error('Choose a configured rclone remote');if(folder)relativePath(folder);return name+':'+folder;}
+  async test({remote,folder=''}){const fs=await this.remote(remote,folder);return this.call('operations/list',{fs,remote:'',opt:{dirsOnly:true,maxDepth:1}});}
+  async transfer({backup,directory,remote,folder='SWCH-SFF',direction='upload'},job){let source,destination;const remotePath=await this.remote(remote,folder);
+    if(direction==='upload'){await this.ctx.saves.verify({backup},job);source=backup;destination=remotePath.replace(/\/$/,'')+'/'+path.basename(backup);}
+    else {if(!directory)throw new Error('Select a local folder for the downloaded backup');await this.ctx.authorize(directory);source=remotePath;destination=directory;}
+    const {jobid}=await this.call('sync/copy',{srcFs:source,dstFs:destination,_async:true});const abort=()=>{void this.call('job/stop',{jobid}).catch(()=>{});};job.signal.addEventListener('abort',abort,{once:true});
+    try{for(;;){job.signal.throwIfAborted();const status=await this.call('job/status',{jobid});if(status.finished){if(!status.success)throw new Error(status.error||'rclone transfer failed');if(direction==='download')await this.ctx.saves.inspect({backup:destination});return {source,destination,completed:true};}const stats=await this.call('core/stats');await job.progress({stage:'rclone',done:stats.bytes,total:stats.totalBytes,transfers:stats.transfers});await delay(700,job.signal);}}finally{job.signal.removeEventListener('abort',abort);await this.saveConfig();}
+  }
+  async close(){if(this.url)await this.ctx.net.request(this.url+'core/quit',{method:'POST',headers:{Authorization:this.auth},timeout:1000,retries:0}).then(r=>r.body?.cancel()).catch(()=>{});this.url=null;this.controller?.abort(new Error('rclone stopped'));if(this.process)await this.process;await this.saveConfig();if(this.config)await fs.rm(this.config,{force:true});this.config=null;this.process=null;}
+}

@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import protobuf from 'protobufjs';
+import {fs,path} from '../src/core.mjs';
+import {Manifests,requestCode} from '../src/manifests.mjs';
+import {fixture} from './helpers.mjs';
+const schema=protobuf.Root.fromJSON(JSON.parse(await fs.readFile(new URL('../node_modules/steam-user/protobufs/generated/content_manifest.json',import.meta.url),'utf8')));
+function raw(depot='11',gid='123'){const Type=schema.lookupType('ContentManifestMetadata'),bytes=Buffer.from(Type.encode(Type.fromObject({depot_id:depot,gid_manifest:gid})).finish()),header=Buffer.alloc(8);header.writeUInt32LE(0x1f4812be);header.writeUInt32LE(bytes.length,4);return Buffer.concat([header,bytes]);}
+test('request code parser preserves 64-bit integers and rejects HTML',()=>{assert.equal(requestCode('{"content":12345678901234567890}'),'12345678901234567890');assert.equal(requestCode(' <html>404</html> '),null);assert.equal(requestCode('12345678901234567890'),'12345678901234567890');});
+test('manifest cascade validates identities, rejects wrong mirror and reuses cache',async t=>{const {ctx,root,job}=await fixture(t);const calls=[];ctx.steam={root:async()=>root,connected:async()=>({getRawManifest:async()=>{throw new Error('Fixture: no CM manifest access');}})};ctx.net={request:async url=>{calls.push(url);return new Response(calls.length===1?raw('99'):raw());}};const manifests=new Manifests(ctx),params={appid:'10',depotid:'11',manifestid:'123'};const result=await manifests.fetch(params,job);assert.equal(result.manifest.depot_id,11);assert.equal(calls.length,2);assert.match(calls[0],/qwe213312/);assert.match(calls[1],/mejikuhibiniu1/);await manifests.fetch(params,job);assert.equal(calls.length,2);});
+test('mirror history indexes and filters explicit depot IDs without inventing timestamps',async t=>{const {ctx,job}=await fixture(t);ctx.net={json:async()=>({truncated:true,tree:[{type:'blob',path:'11_123.manifest'},{type:'blob',path:'12_456.manifest'},{type:'blob',path:'unsafe/path'}]})};const result=await new Manifests(ctx).history('11',job);assert.equal(result.truncated,true);assert.deepEqual(result.manifests,[{depotid:'11',manifestid:'123',source:'GitHub mirror'}]);});

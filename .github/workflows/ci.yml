@@ -1,0 +1,41 @@
+name: Validate mod
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Fetch authoritative SDK
+        run: node scripts/fetch-sdk.mjs
+      - run: npm ci --ignore-scripts --omit=optional --no-audit --no-fund
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/build.mjs
+      - name: Verify runner architecture
+        run: node -e "console.log(process.platform,process.arch); if(process.platform==='darwin'&&process.arch!=='arm64') process.exit(1)"
+      - run: npx playwright install chromium
+      - name: Browser UI fixtures
+        run: node --test tests/ui.test.mjs
+        env:
+          SWCH_BROWSER_TEST: '1'
+      - run: node mod-sdk/cli.mjs check sff-mod
+      - run: node mod-sdk/cli.mjs pack sff-mod dist/mod.zip
+      - run: node mod-sdk/cli.mjs validate-zip dist/mod.zip
+      - run: node scripts/release-check.mjs
+      - run: node scripts/package-smoke.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mod-${{ matrix.os }}
+          path: dist/mod.zip

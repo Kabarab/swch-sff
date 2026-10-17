@@ -1,0 +1,12 @@
+/* GPL-3.0-or-later. Iframe File/Blob imports are staged in the mod cache. */
+import {randomUUID} from 'node:crypto';
+import {fs,path,relativePath,within,hashFile,removeTree} from './core.mjs';
+export class Uploads{
+  constructor(ctx){this.ctx=ctx;this.pending=new Map();}
+  async begin({name,size}){name=relativePath(name);if(name.includes('/')||!/[.](lua|zip|7z|rar)$/i.test(name))throw new Error('Choose a Lua, ZIP, 7z or RAR file');if(!Number.isSafeInteger(size)||size<1||size>256*1024*1024)throw new Error('Upload size must be between 1 byte and 256 MiB; use the folder picker for larger inputs');const id=randomUUID(),directory=path.join(this.ctx.paths.cache,'uploads',id);await fs.mkdir(directory,{recursive:true});const file=await within(directory,name);await fs.writeFile(file,Buffer.alloc(0),{flag:'wx'});this.pending.set(id,{id,file,directory,size,received:0});return {id,chunk_size:192*1024};}
+  entry(id){const entry=this.pending.get(id);if(!entry)throw new Error('Upload expired or was cancelled');return entry;}
+  async chunk({id,offset,data}){const entry=this.entry(id);if(!Number.isSafeInteger(offset)||offset<0||typeof data!=='string'||data.length>350000||!/^([A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/.test(data))throw new Error('Invalid upload chunk');const bytes=Buffer.from(data,'base64');if(!bytes.length||offset+bytes.length>entry.size)throw new Error('Upload exceeds the declared size');const handle=await fs.open(entry.file,'r+');try{if(offset<entry.received){const prior=Buffer.alloc(bytes.length);const read=await handle.read(prior,0,prior.length,offset);if(offset+bytes.length>entry.received||read.bytesRead!==bytes.length||!prior.equals(bytes))throw new Error('Upload retry differs from received bytes');return {received:entry.received};}if(offset!==entry.received)throw new Error('Upload offset differs from the received size');await handle.write(bytes,0,bytes.length,offset);entry.received+=bytes.length;return {received:entry.received};}finally{await handle.close();}}
+  async finish({id}){const entry=this.entry(id);if(entry.received!==entry.size||(await fs.stat(entry.file)).size!==entry.size)throw new Error('Upload is incomplete');const sha256=await hashFile(entry.file);this.pending.delete(id);return {file:entry.file,size:entry.size,sha256};}
+  async cancel({id}){const entry=this.entry(id);await removeTree(this.ctx.paths.cache,entry.directory);this.pending.delete(id);return {cancelled:true};}
+  async close(){for(const id of [...this.pending.keys()])await this.cancel({id});}
+}

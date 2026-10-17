@@ -1,0 +1,31 @@
+/* GPL-3.0-or-later. No tool is downloaded implicitly by a game operation. */
+import {Worker} from 'node:worker_threads';
+import {fileURLToPath} from 'node:url';
+import {fs,path,exists,readJSON,atomicWrite,within,hashFile,walk,noLinks,removeTree} from './core.mjs';
+
+export async function extractArchive(archive,destination,{signal,password}={}) {
+  signal?.throwIfAborted();await noLinks(archive);await noLinks(destination);await fs.mkdir(destination,{recursive:true});
+  return new Promise((resolve,reject)=>{const worker=new Worker(new URL('./archive-worker.mjs',import.meta.url),{workerData:{archive,destination,password},execArgv:[]});let settled=false;const timer=setTimeout(()=>finish(new Error('Archive extraction timed out')),300000);const abort=()=>finish(signal.reason??new Error('Cancelled'));const finish=(error,result)=>{if(settled)return;settled=true;clearTimeout(timer);signal?.removeEventListener('abort',abort);void worker.terminate();error?reject(error):resolve(result);};worker.on('message',m=>finish(m.ok?null:new Error(m.error),m));worker.on('error',e=>finish(e));worker.on('exit',code=>{if(!settled)finish(new Error('Archive worker exited with '+code));});signal?.addEventListener('abort',abort,{once:true});});
+}
+
+export class Tools {
+  constructor(ctx,definitions){this.ctx=ctx;this.definitions=definitions;}
+  definition(id){const def=this.definitions.find(t=>t.id===id&&t.platforms.includes(this.ctx.platform));if(!def)throw new Error('Tool is unavailable on '+this.ctx.platform+': '+id);return def;}
+  directory(def){return path.join(this.ctx.paths.tools,def.id,def.version);}
+  async list(){return Promise.all(this.definitions.map(async def=>{const supported=def.platforms.includes(this.ctx.platform);const directory=this.directory(def);return {id:def.id,version:def.version,license:def.license,source:def.source,blocked_files:def.blocked_files||[],detection:def.detection||null,sha256:def.archive?.sha256||(def.files?.length===1?def.files[0].sha256:null),platforms:def.platforms,supported,installed:supported&&await exists(path.join(directory,'.installed.json')),bytes:def.files?.reduce((n,f)=>n+(f.size||0),0)||null,directory};}));}
+  async install(id,job,{acknowledge_detection=false}={}){const def=this.definition(id),directory=this.directory(def);if(def.detection&&!acknowledge_detection)throw new Error('Read the Defender detection notice and explicitly confirm the original tool download');await fs.mkdir(directory,{recursive:true});await fs.rm(path.join(directory,'.installed.json'),{force:true});if(def.files?.some(f=>def.blocked_files?.some(b=>b.path===f.path)))throw new Error('Tool lock contains an explicitly blocked file');
+    if(def.archive){const archive=path.join(this.ctx.paths.cache,'tool-downloads',id+'-'+def.version+path.extname(new URL(def.archive.url).pathname));await this.ctx.net.download(def.archive.url,archive,{signal:job.signal,hash:def.archive.sha256,progress:p=>job.progress({tool:id,stage:'download',...p})});const stage=path.join(this.ctx.paths.temp,'tool-'+job.id);await removeTree(this.ctx.paths.temp,stage);await extractArchive(archive,stage,{signal:job.signal});const source=def.archive.strip?await within(stage,def.archive.strip):stage;for(const file of await walk(source,{signal:job.signal})){const relative=path.relative(source,file);await atomicWrite(await within(directory,relative),await fs.readFile(file));}await removeTree(this.ctx.paths.temp,stage);}
+    else {for(let i=0;i<def.files.length;i++){job.signal.throwIfAborted();const file=def.files[i];const dest=await within(directory,file.path);if(!await exists(dest)||await hashFile(dest)!==file.sha256)await this.ctx.net.download(file.url,dest,{signal:job.signal,hash:file.sha256});if(file.executable&&process.platform!=='win32')await fs.chmod(dest,0o755);await job.progress({tool:id,stage:'install',done:i+1,total:def.files.length});await job.checkpoint({file:i+1});}}
+    for(const file of def.executables||[])if(process.platform!=='win32')await fs.chmod(await within(directory,file),0o755);
+    const hashes={};for(const file of await walk(directory,{signal:job.signal,filter:f=>!f.endsWith('.installed.json')&&!f.endsWith('.partial')}))hashes[path.relative(directory,file).replaceAll('\\','/')]=await hashFile(file);
+    await atomicWrite(path.join(directory,'.installed.json'),JSON.stringify({id,version:def.version,hashes,date:new Date().toISOString()}));return {installed:true,id,version:def.version,directory};
+  }
+  async require(id,file){const def=this.definition(id),directory=this.directory(def);const installed=await readJSON(path.join(directory,'.installed.json'),null);if(!installed)throw new Error('Install '+id+' from Tools first');
+    const blocked=def.blocked_files?.find(entry=>entry.path===file);if(blocked)throw new Error('This tool file is unavailable: '+blocked.reason);
+    for(const [relative,hash]of Object.entries(installed.hashes||{})){const target=await within(directory,relative);if(!await exists(target))throw new Error(def.detection?'Original ColdClient x64 is missing or quarantined. Read the visible ColdClient notice; Regular mode remains available.':'Tool file missing. Reinstall '+id);if(await hashFile(target)!==hash)throw new Error('Tool verification failed. Reinstall '+id);}
+    if(file){const target=await within(directory,file),hash=installed.hashes[file.replaceAll('\\','/')];if(!hash)throw new Error('Tool file is absent. Reinstall '+id);return target;}return directory;
+  }
+  async executable(id,filename){return this.require(id,filename);}
+  async run(id,file,args,job,options={}){const executable=await this.executable(id,file);return this.ctx.processes.run(executable,args,{signal:job?.signal,cwd:this.directory(this.definition(id)),...options});}
+  async remove(id){const def=this.definition(id),directory=this.directory(def);if(!directory.startsWith(path.resolve(this.ctx.paths.tools)+path.sep))throw new Error('Invalid tool directory');await noLinks(directory);await fs.rm(directory,{recursive:true,force:true});return {removed:id};}
+}

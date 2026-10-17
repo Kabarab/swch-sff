@@ -1,0 +1,48 @@
+# Adapted from mod-sdk/templates/release.yml at bdd8640947dea4b2724aaa5c2a464a62797d3cd7.
+name: Release SWCH mod
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/checkout@v4
+        with:
+          repository: Kabarab/swch
+          ref: bdd8640947dea4b2724aaa5c2a464a62797d3cd7
+          path: .swch-sdk
+          sparse-checkout: mod-sdk
+      - name: Prepare official SDK
+        run: cp -R .swch-sdk/mod-sdk mod-sdk
+      - run: npm ci --ignore-scripts --omit=optional --no-audit --no-fund
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/build.mjs
+      - name: Check and pack mod
+        run: |
+          node .swch-sdk/mod-sdk/cli.mjs check sff-mod
+          node .swch-sdk/mod-sdk/cli.mjs pack sff-mod dist/mod.zip
+          node .swch-sdk/mod-sdk/cli.mjs validate-zip dist/mod.zip
+          node scripts/release-check.mjs
+          node scripts/package-smoke.mjs
+      - name: Refuse replacing a published version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'Version already released. Increase the manifest/package version.'
+            exit 1
+          fi
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/mod.zip
+          draft: false
+          prerelease: false
+          fail_on_unmatched_files: true

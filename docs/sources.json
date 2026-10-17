@@ -1,0 +1,6 @@
+{
+  "swch": {"repository":"Kabarab/swch","commit":"bdd8640947dea4b2724aaa5c2a464a62797d3cd7","api":"1.1.0"},
+  "sff": {"repository":"Midrags/SFF","commit":"fa44fc96b609c4cbe553e7e1e6ffd946de55b76f","license":"GPL-3.0-or-later"},
+  "runtime":"Node.js 24 LTS",
+  "modified_by":"Kabarab — JavaScript port and SWCH integration, 2026-10-17"
+}
