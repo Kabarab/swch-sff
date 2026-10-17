@@ -1,4 +1,6 @@
-# SFF for SWCH 1.0.0
+# SFF for SWCH 1.0.1
+
+Fixes macOS .NET archive installation: preserves the compound TAR.GZ extension, recognizes nested TAR data and refuses to mark tools installed when their required executable is missing. Adds native .NET/DDMod/rclone fixture checks on Windows x64 and macOS ARM64.
 
 Install **mod.zip** through SWCH > Mods > ZIP installation and development. Requires the updated **Mod SDK 1.1.0** and bundled Node.js 24. Users do not install npm dependencies or rebuild SWCH.
 

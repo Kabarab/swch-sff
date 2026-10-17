@@ -1,6 +1,6 @@
 # SFF for SWCH
 
-JavaScript port of SFF workflows into a SWCH tab, with persistent jobs, Steam library integration, Lua/manifests, optional game tools, Workshop and verified save backups. GPL-3.0-or-later. Mod ID `kabarab.sff`, version `1.0.0`.
+JavaScript port of SFF workflows into a SWCH tab, with persistent jobs, Steam library integration, Lua/manifests, optional game tools, Workshop and verified save backups. GPL-3.0-or-later. Mod ID `kabarab.sff`, version `1.0.1`.
 
 **Requires SWCH with Mod SDK 1.1.0 or newer and its bundled Node.js 24 runtime.** This port uses the updated official SDK at `bdd8640947dea4b2724aaa5c2a464a62797d3cd7`; it cannot run on the original SDK 1.0. No Rust changes or SWCH rebuild is required when that SDK is already installed. It registers a tab, one game card action, internal methods and job types during activation. Steam remains SWCH's built-in launcher: this mod declares no additional launcher capabilities.
 
@@ -41,7 +41,7 @@ node scripts/release-check.mjs
 node scripts/package-smoke.mjs
 ```
 
-For the complete local verification (including browser fixtures), run `node scripts/verify.mjs` after setup. It writes exact command results and the ZIP hash to `artifacts/verification.json`. On Windows it uses the installed Chrome; elsewhere install the test browser with `npx playwright install chromium`. The separate `node scripts/native-smoke.mjs` performs Windows .NET/DDMod and rclone local-backup tests with explicitly downloaded locked tools; it never runs ColdClient.
+For the complete local verification (including browser fixtures), run `node scripts/verify.mjs` after setup. It writes exact command results and the ZIP hash to `artifacts/verification.json`. On Windows it uses the installed Chrome; elsewhere install the test browser with `npx playwright install chromium`. The separate `node scripts/native-smoke.mjs` performs Windows x64 or macOS ARM64 .NET/DDMod and rclone local-backup tests with explicitly downloaded locked tools; it never runs ColdClient.
 
 Run `init` only on a fresh checkout before the generated folder exists. Build recreates that generated folder. Build dependencies are for developers only; the ZIP includes the JavaScript dependencies and WASM worker. No native `.node` addons, credentials, `.env` files or dependencies on other mods are included. Optional native tools are separate explicit downloads, verified before execution.
 
@@ -66,8 +66,8 @@ git add .
 git commit -m "Implement SFF for SWCH"
 git remote add origin https://github.com/Kabarab/swch-sff.git
 git push -u origin main
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.0.1
+git push origin v1.0.1
 ```
 
 Set `package.json` to `X.Y.Z`; build writes the matching manifest version. Push `vX.Y.Z`. The workflow validates the package and creates a **stable GitHub Release** containing **`mod.zip`**. It refuses to replace an existing release asset. As repository owner, submit the **Publish a SWCH mod** issue form in [Kabarab/swch](https://github.com/Kabarab/swch/issues/new?template=publish-mod.yml) with repository `Kabarab/swch-sff`. The catalog checks personal ownership and package metadata without executing the mod; later stable releases are checked every six hours. **Catalog validation is not a security audit.** Never replace an already published version's ZIP: increase the version and create a new tag/release. Installed mod bindings to games persist across updates.

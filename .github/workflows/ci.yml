@@ -35,7 +35,13 @@ jobs:
       - run: node mod-sdk/cli.mjs validate-zip dist/mod.zip
       - run: node scripts/release-check.mjs
       - run: node scripts/package-smoke.mjs
+      - name: Native .NET, DDMod and rclone fixture round trip
+        run: node scripts/native-smoke.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: mod-${{ matrix.os }}
           path: dist/mod.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: native-smoke-${{ matrix.os }}
+          path: artifacts/native-smoke.json

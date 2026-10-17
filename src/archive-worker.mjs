@@ -11,7 +11,7 @@ try {
   let code=z.callMain(argumentsFor(input));if(code!==0)throw new Error('Archive extraction failed: '+lines.slice(-2000));
   // tar.gz distributions contain one tar after the first extraction.
   const first=z.FS.readdir('/output').filter(n=>n!=='.'&&n!=='..');
-  if(first.length===1&&first[0].endsWith('.tar')){const tar='/output/'+first[0];code=z.callMain(argumentsFor(tar));if(code!==0)throw new Error('TAR extraction failed');z.FS.unlink(tar);}
+  if(first.length===1){const tar='/output/'+first[0],stat=z.FS.lstat(tar);if(z.FS.isFile(stat.mode)){const bytes=z.FS.readFile(tar),isTar=bytes.length>=512&&String.fromCharCode(...bytes.subarray(257,262))==='ustar';if(first[0].endsWith('.tar')||isTar){code=z.callMain(argumentsFor(tar));if(code!==0)throw new Error('TAR extraction failed');z.FS.unlink(tar);}}}
   const entries=[];let total=0;function visit(dir){for(const name of z.FS.readdir(dir)){if(name==='.'||name==='..')continue;const file=dir+'/'+name;const s=z.FS.lstat(file);if(z.FS.isDir(s.mode))visit(file);else if(z.FS.isFile(s.mode)){const rel=file.slice('/output/'.length);entries.push({file,rel,size:s.size});total+=s.size;}else throw new Error('Links and special archive entries are not supported');}}
   visit('/output');if(total>2*1024*1024*1024)throw new Error('Expanded archive exceeds 2 GiB staging budget');
   const seen=new Set();for(const entry of entries){await within(destination,entry.rel);const key=entry.rel.toLowerCase();if(seen.has(key))throw new Error('Duplicate archive path');seen.add(key);}

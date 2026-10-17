@@ -6,6 +6,8 @@ Use Node.js 24 and `node --test tests/*.test.mjs`. Tests use isolated, generated
 
 `node scripts/build.mjs` creates `sff-mod`; `node mod-sdk/cli.mjs check sff-mod`, `pack`, `validate-zip` and `node scripts/release-check.mjs` are required. Test outcomes are recorded separately in generated `artifacts/verification.json`; do not infer success from this checklist alone.
 
+`node scripts/native-smoke.mjs` installs only the locked .NET, DDMod and rclone tools into fixture folders and verifies their startup plus a local save-backup round trip. The CI workflow runs it on Windows x64 and macOS ARM64. It never installs or executes ColdClient. Read the native-smoke artifact and workflow result for actual outcomes; this does not exercise live games or cloud credentials.
+
 ## Host acceptance checklist (pending unless recorded as completed)
 
 1. Windows x64: connect the absolute generated folder in SWCH Mods development, enable, open SFF, navigate all views and game-card action. Change RU/EN/PT, narrow the window, test keyboard labels, long names and RTL.
